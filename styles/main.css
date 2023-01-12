@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+body {
+    width: 70vw;
+    margin: auto;
+    background-color:#EAC7C7;
+    padding: 5vh;
+  }
+  
+  .header{
+    background-color: #A0C3D2;
+    display: grid;
+    max-width: 60vw;
+    grid-template-columns: 300px 1fr;
+    padding: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .header img {
+    width: 15vw;
+    height: auto;
+    border-radius: 3vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  
+  .header h1 {
+    font-size: 8vw;
+    padding: 1vh;
+    font-family: "Sofia Sans Semi Condensed";
+  }
+  
+  .body{
+    background-color: #F7F5EB;
+    max-width: 62vw;
+    display: grid;
+    padding:1vw;
+    grid-template-rows: 100px 1fr;
+  }
+  
+  .title {
+    font-size:3vw;
+    padding: 1vh;
+    text-align: center;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+  }
+  
+  ul{
+    font-size: 2vw;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    line-height: 10vh;
+  }
+  
+  footer{
+    background-color: #EAE0DA;
+    max-width: 62vw;
+    text-align: center;
+    font-size: 3vw;
+    padding:1vw;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    gap: 0vw;
+    font-family: "Sofia Sans Semi Condensed";
+  }
