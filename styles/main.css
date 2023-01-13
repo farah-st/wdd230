@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
 
 body {
-    width: 70vw;
-    margin: auto;
+
     background-color:#EAC7C7;
     padding: 5vh;
   }
@@ -10,7 +9,7 @@ body {
   .header{
     background-color: #A0C3D2;
     display: grid;
-    max-width: 60vw;
+    width: 800px;
     grid-template-columns: 300px 1fr;
     padding: 2vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -31,7 +30,7 @@ body {
   
   .body{
     background-color: #F7F5EB;
-    max-width: 62vw;
+    width: 800px;
     display: grid;
     padding:1vw;
     grid-template-rows: 100px 1fr;
@@ -52,7 +51,7 @@ body {
   
   footer{
     background-color: #EAE0DA;
-    max-width: 62vw;
+    width: 800px;
     text-align: center;
     font-size: 3vw;
     padding:1vw;
