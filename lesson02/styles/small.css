@@ -56,10 +56,10 @@ a:visited{
 
   div h4 {
     text-align: center;
-    padding: none;
   }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 400px) {
+ 
   header {
     font-size: 1rem;
   }
