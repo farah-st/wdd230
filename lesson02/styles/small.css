@@ -7,16 +7,62 @@ body {
   margin: 0;
 }
 
-@media only screen and (max-width: 426px) {
-  header {
-    width: 100%;
-    background-color: #7a9e9f;
-    padding: 5px;
-    font-size: 1rem;
-    text-align: center;
-    font-family: "Julius Sans One", sans-serif;
+header {
+  width: 100%;
+  background-color: #7a9e9f;
+  padding: 5px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+h2 {
+  background-color: #eef5db;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+a:link {
+  color: rgb(225, 230, 207);
+  text-align: center;
+  padding: 10px 20px;
+} 
+a:visited{
+    color: black;
   }
 
+  a:hover {
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  p {
+    text-align: center;
+    background-color: #fe5f55;
+    color: white;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  div.link {
+    background-color: #7a9e9f;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  div h4 {
+    text-align: center;
+    padding: none;
+  }
+
+@media only screen and (min-width: 426px) {
+  header {
+    font-size: 1rem;
+  }
   section .section1 {
     grid-area: section1;
   }
@@ -35,53 +81,11 @@ body {
       "section2"
       "section3";
   }
-
-  section h2 {
-    background-color: #eef5db;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-  }
-  a:link {
-  color: white;
-    font-size: 20px;
-}
-  
-  a:visited{
-    color: black;
-  }
-
-  section h3 {
-    text-align: center;
-    text-decoration: underline;
-  }
-
-  section p {
-    text-align: center;
-    font-size: 18px;
-    background-color: #fe5f55;
-    color: white;
-    padding: 5px;
-    width: 100%;
-  }
-
-  section img {
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   div.link {
-    width: 100%;
-    padding: 5px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+    width: 80%;
   }
 
-  div h4 {
-    text-align: center;
-    padding: 5px;
-    background-color: #7a9e9f;
+  p{
+    font-size: 20px;
   }
 }
