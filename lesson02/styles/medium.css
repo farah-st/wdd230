@@ -1,78 +1,21 @@
-@media only screen and (max-width: 800px) {
-    header {
-      width: 100%;
-      background-color: #7a9e9f;
-      padding: 5px;
-      font-size: 1rem;
-      text-align: center;
-      font-family: "Julius Sans One", sans-serif;
-    }
-  
-    section .section1 {
-      grid-area: section1;
-    }
-  
-    section .section2 {
-      grid-area: section2;
-    }
-  
-    section .section3 {
-      grid-area: section3;
-    }
-    .section {
-      display: grid;
-      grid-template-areas:
-        "section1"
-        "section2"
-        "section3";
-    }
-  
-    section h2 {
-      background-color: #eef5db;
-      text-align: center;
-      width: 100%;
-      padding: 5px;
-    }
-    a:link {
-    color: white;
-      font-size: 20px;
+@media only screen and (min-width: 700px) {
+  header {
+    font-size: 30px;
   }
-    
-    a:visited{
-      color: black;
-    }
-  
-    section h3 {
-      text-align: center;
-      text-decoration: underline;
-    }
-  
-    section p {
-      text-align: center;
-      font-size: 17px;
-      background-color: #fe5f55;
-      color: white;
-      padding: 8px;
-      width: 100%;
-    }
-  
-    section img {
-      display: block;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    div.link {
-      width: 100%;
-      padding: 5px;
-      background-color: white;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      margin-bottom: 25px;
-    }
-  
-    div h4 {
-      text-align: center;
-      padding: 5px;
-      background-color: #7a9e9f;
-    }
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
+
+  h4{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
+
+  footer{
+    font-size: 20px;
+  }
+}
