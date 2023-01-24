@@ -29,9 +29,11 @@ table {
 
 footer{
     font-family: 'Alegreya', serif;
-    
     background-color: #90C8AC;
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
 }
 
 
@@ -42,12 +44,13 @@ nav {
 	max-width: 800px;
     border-radius: 10px;
     
-}
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
     
 }
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    }
+
 nav ul li a {
     color: black;
 	display: block;
@@ -62,4 +65,5 @@ nav ul li a {
       footer{
         font-size: 20px;
       }
+      
 }
