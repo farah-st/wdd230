@@ -1,5 +1,6 @@
 const button = document.querySelector(".btn");
 function show(){
+    console.log("Function is working");
     button.classList.add("newstyle");
 }
-button.addEventListener("clcik", show);
+button.addEventListener("click", show);

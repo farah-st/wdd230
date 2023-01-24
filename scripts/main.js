@@ -1,7 +1,10 @@
-let date = document.lastModified;
+/*let date = document.lastModified;
 let lastModifiedDate = new Date(date);
-document.querySelector(".updated").innerHTML = `Last updated: ${lastModifiedDate}`;
+document.querySelector(".lastUpdate").innerHTML = `Last updated: ${lastModifiedDate}`;*/
 
-let date = new Date();
-let lastUpdate = new Date(document.lastModified);
-document.querySelector(".lastUpdate").innerHTML = `Last updated: ${lastUpdate}`;
+// let date = new Date();
+let lastUpdate = document.lastModified;
+document.querySelector("#lastUpdate").innerHTML = `Last updated: ${lastUpdate}`;
+
+// let lastUpdate = document.lastModified;
+// document.getElementById("lastUpdate").innerHTML = `Last Updated ${lastUpdate}`; 
