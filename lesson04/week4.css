@@ -1,6 +1,44 @@
 /* .btn {
     /* background-color: red; */
 
-newstyle{
+.newstyle{
     background-color: red;
 }
+/* hamburger menu/responsive menu*/
+nav{
+    display: flex;
+    flex-direction: column; /*verticals it*/
+    /* position:absolute; */ /*doesn't push button down*/
+}
+a{
+    display:none;
+    padding: 15px;
+}
+/* this is for the ham class */
+a:first-child{
+    display: block;
+    text-decoration: none;
+    font-size: 2em; /*twice as big EM*/
+}
+
+.responsive a{ /*toggle*/
+    display:block;
+
+}
+
+@media screen and (min-width: 650px){
+    a:first-child{
+        display: none;
+    }
+
+    a{
+        display: block;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+}
+
+/*event 2fr and 1fr medium
+1fr 2fr 1fr for large*/
