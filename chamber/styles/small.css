@@ -1,0 +1,49 @@
+header {
+    background-color: #FFF6BD;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+nav{
+    display: flex;
+    flex-direction: column; 
+}
+.responsive a{ /*toggle*/
+    display:block;
+}
+img.logo{
+    max-width: 100px;
+}
+a:first-child{
+    display: none;
+}
+a{
+    display:none;
+    padding: 15px;
+}
+
+@media screen and (max-width: 650px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr 0.5fr;
+    }
+    a:first-child{
+        display: block;
+        text-decoration: none;
+        font-size: 2em; 
+        text-align: center;
+    }
+
+header h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: right;
+    line-height: 1px;
+}
+
+header p{
+    font-size: 15px;
+}
+
+}
+
+
+  
