@@ -19,6 +19,17 @@ a{
     display:none;
     padding: 15px;
 }
+main{
+    background-color:white;  
+}
+.grid-item{
+    background-color: #CEEDC7;
+    border: 1px solid rgba(126, 181, 74, 0.8);
+    padding: 20px;
+  }
+  div:nth-child(5) {
+    display: grid;
+  }
 
 @media screen and (max-width: 650px){
     header{
@@ -42,7 +53,24 @@ header h3{
 header p{
     font-size: 15px;
 }
+.grid{
+    display:grid;
+    grid-template-rows: repeat(4, 200px);
+}
 
+.grid-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div:nth-child(5){
+    grid-template-rows: repeat(2, 150px);
+    
+}
+.spotlight{
+    border: 1px solid rgba(126, 181, 74, 0.8);
+}
+
+    
 }
 
 
