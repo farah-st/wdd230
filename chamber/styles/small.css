@@ -1,21 +1,17 @@
 header {
-    background-color: #FFF6BD;
+  background-color: #FFF6BD;
  color: #625e5e;   font-family: 'Source Sans Pro', sans-serif;
-  
-  }
-
-  nav{
-    background-color: #FFF6BD;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #625e5e;
 }
-
+nav{
+  background-color: #FFF6BD;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #625e5e;
+}
 nav ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: none;
-  /* position: absolute; */
   align-self: center;
 }
 nav button{
@@ -40,13 +36,13 @@ main{
   font-family: 'Alegreya', serif;
 }
 .grid-item{
-    background-color: #CEEDC7;
-    border: 1px solid rgb(118 172 67 / 80%);
-    padding: 5px;
-  }
-  div:nth-child(5) {
-    display: grid;
-  }
+  background-color: #CEEDC7;
+  border: 1px solid rgb(118 172 67 / 80%);
+  padding: 5px;
+}
+div:nth-child(5) {
+  display: grid;
+}
 footer{
   background-color: #FFF6BD;
   font-family: 'Source Sans Pro', sans-serif;
@@ -55,19 +51,40 @@ footer{
 footer img{
   max-width: 100px;
 }
-.spotlight{
-    border: 1px solid rgb(118 172 67 / 80%);
-
-  }
-  nav ul li a:hover{
-    background-color:#FFD4B2;
-    color: white;
+.spotlight, .large-Sp{
+  border: 1px solid rgb(118 172 67 / 80%);
+}
+nav ul li a:hover{
+  background-color:#FFD4B2;
+  color: white;
 }
 #date1{
   background-color:#FFD4B2;
   color: black;
 }
-
+.wrapper .icon{
+  position: relative;
+  border-radius: 50%;
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+.wrapper .facebook {
+background-color: #3b5999;
+color: #ffffff;
+}
+.wrapper .instagram{
+background-color: #e1306c;
+color: #ffffff;
+}
 .last-footer{
   background-color:#FFD4B2;
   color: black;
@@ -76,10 +93,9 @@ img.logo{
   max-width: 100px;
 }
 @media screen and (max-width: 767px){
-  .header{
+  header{
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
-    /* align-items: center; */
   }
   .second-grid{
     margin-top: 20px;
@@ -126,9 +142,9 @@ img.logo{
     margin: 5px;
   }
   #date1{
-    display: block;
+    grid-column: 1/4;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
   .last-footer h4{
     margin: 0px;
@@ -145,6 +161,9 @@ img.logo{
   }
   .grid p:nth-child(6){
     display: none;
+  }
+  header .social-media{
+    display:none;
   }
 
 }
