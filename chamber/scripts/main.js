@@ -1,6 +1,5 @@
 const date1 = document.querySelector("#date1");
 const message = document.querySelector("#emessage");
-
 try {
 	const options = {
 		weekday: "long",
@@ -8,7 +7,7 @@ try {
 		month: "long",
 		year: "numeric"
 	};
-	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
+	date1.innerHTML = `${new Date().toLocaleDateString("en-UK", options)}</span>`;
 } catch (e) {
 	console.log("Error with code or your browser does not support Locale");
 }

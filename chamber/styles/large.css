@@ -122,7 +122,7 @@
         grid-template-columns: 0.5fr 2fr 1.5fr;
     }
     .first-footer img{
-        max-width: 160px;
+        max-width: 140px;
     }
     .first-footer .one:nth-child(2){
         padding-top: 30px;
@@ -130,5 +130,30 @@
     .one{
         line-height: 3px;
         font-size: 18px;
+    }
+    .two{
+        line-height: 10px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    #lastUpdate{
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+    }
+    .last-footer{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 0.5fr 0.4fr;
+        font-size: 15px;
+    }
+    .last-footer p:nth-child(1){
+        text-align: right;
+    }
+    .last-footer p:nth-child(2){
+        text-align: center;
+    }
+    .last-footer p:nth-child(3){
+        text-align: left;
     }
 }

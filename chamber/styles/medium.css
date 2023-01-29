@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
     header{
         display: grid;
-        grid-template-columns: 1fr 3fr 0.5fr;
+        grid-template-columns: 1fr 1fr 0.5fr 0.4fr;
     }
     .second-grid{
         margin-top: 20px;
@@ -13,7 +13,7 @@
         font-size: 30px;
     }
     #date1{
-        grid-column: 1/4;
+        grid-column: 1/5;
         text-align: center;
         font-size: 15px;
     }
@@ -84,7 +84,7 @@
     }
     .last-footer{
         display: grid;
-        grid-template-columns: 3fr 1fr 2fr;
+        grid-template-columns: 3fr 0.7fr 0.7fr;
         font-size: 13px;
         /* text-align: left; */
     }
@@ -114,6 +114,8 @@
         grid-row: 1;
     }
     header .social-media{
-        display:none;
-      }
+        grid-column: 4;
+        grid-row: 1;
+        padding-top: 30px;
+    }
 }
