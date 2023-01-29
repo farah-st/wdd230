@@ -62,7 +62,7 @@
     .grid{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: repeat(3, 200px);
         grid-gap: 10px;
         font-size: 15px;
     }
@@ -116,5 +116,19 @@
     }
     .main-spotlight p:nth-child(3){
         grid-row: 3;
+    }
+    .first-footer{
+        display:grid;
+        grid-template-columns: 0.5fr 2fr 1.5fr;
+    }
+    .first-footer img{
+        max-width: 160px;
+    }
+    .first-footer .one:nth-child(2){
+        padding-top: 30px;
+    }
+    .one{
+        line-height: 3px;
+        font-size: 18px;
     }
 }
