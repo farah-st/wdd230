@@ -57,9 +57,6 @@
         grid-row: 5;
         margin: 0px;
     }
-    /* .main-spotlight{
-        display: block;
-      } */
     .first-footer{
         display: grid;
         grid-template-columns: 0.5fr 2fr 1fr;
