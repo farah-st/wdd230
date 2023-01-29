@@ -149,11 +149,17 @@
     }
     .last-footer p:nth-child(1){
         text-align: right;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
     .last-footer p:nth-child(2){
         text-align: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
     .last-footer p:nth-child(3){
         text-align: left;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 }
