@@ -2,14 +2,17 @@
     nav button{
         display: none;
     }
-    nav ul #primaryNav{
+
+    nav ul#primaryNav{
         display: flex;
+        /*justify-content: flex-end;*/
         margin-left: 2vw;
-        border-left:  1px solid #9397984d;
+        border-left:  1px solid rgba(0,0,0,0.3)
     }
+
     nav ul li a{
         border: none;
-        border-right:  1px solid #9397984d;
+        border-right:  1px solid rgba(0,0,0,0.3);
     }
 
     header{
