@@ -1,6 +1,8 @@
 header {
   background-color: #FFF6BD;
  color: #625e5e;   font-family: 'Source Sans Pro', sans-serif;
+ /* position: fixed;
+ z-index: 1; */
 }
 nav{
   background-color: #FFF6BD;
@@ -103,7 +105,7 @@ img.logo{
     text-align: right;
     line-height: 1px;
   }
-  .header p{
+  .second-grid p{
     font-size: 15px;
   }
   .grid{
