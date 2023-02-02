@@ -21,3 +21,10 @@ x.onclick=toggleMenu;
 
 let lastUpdate = document.lastModified;
 document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+
+let date = new Date();
+// returns a number 0-sun , 1-mon 
+// weekDay= date.getDay(); 
+// if(weekDay == 1 || weekDay == 2 {
+
+// });
