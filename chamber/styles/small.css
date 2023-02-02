@@ -54,7 +54,7 @@ footer img{
   max-width: 100px;
 }
 .spotlight, .large-Sp{
-  border: 1px solid rgb(118 172 67 / 80%);
+  /* border: 1px solid rgb(118 172 67 / 80%); */
 }
 nav ul li a:hover{
   background-color:#FFD4B2;
@@ -94,7 +94,12 @@ color: #ffffff;
 img.logo{
   max-width: 100px;
 }
-
+#hero img{
+  max-width: 100%;
+}
+#weather img{
+  max-width: 100%;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -169,12 +174,7 @@ img.logo{
   header .social-media{
     display:none;
   }
-  #hero img{
-    max-width: 100%;
-  }
-  #weather img{
-    max-width: 100%;
-  }
+
   #weather{
     border-radius: 20px;
   }
@@ -244,6 +244,21 @@ img.logo{
     padding: 5px;
     border-radius: 10px;
     font-size: 17px;
+  }
+  #spotlight-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  #spotlight-1 img{
+    width: 100%
+  }
+  #spotlight-1 p{
+    font-size: 18px;
+    text-align: right;
+    margin-right: 15px;
+    padding: 5px;
+    background-color:#86C8BC;
   }
 
 }
