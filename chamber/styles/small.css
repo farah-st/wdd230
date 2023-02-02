@@ -118,9 +118,6 @@ img.logo{
     margin-top: 6px;
     margin-bottom: 6px;
   }
-  div:nth-child(5){
-    grid-template-rows: repeat(2, 180px);  
-  }
   .main-spotlight{
     display: grid;
     grid-template-rows: repeat(2, 180px); 
@@ -132,9 +129,9 @@ img.logo{
     margin-top: 10px;
     padding: 3px;
   }
-  .large-Sp{
+  /* .large-Sp{
     display:none;
-  }
+  } */
   footer{
     display: block;
     text-align: center;
@@ -163,7 +160,10 @@ img.logo{
   .last-footer p:nth-child(4){
     padding-bottom:5px;
   }
-  .grid p:nth-child(6){
+  #spotlight-3{
+    display: none;
+  }
+  #join{
     display: none;
   }
   header .social-media{
@@ -205,7 +205,48 @@ img.logo{
     -webkit-background-clip: text;
     margin: 0;
   }
+  #events h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: black;
+  }
+  #events{
+    text-align: center;
+  }
+  #events p{
+    background-color:#86C8BC;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 2px;
+  }
+  #events button {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 18px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #events button:hover {
+    background-color: #86C8BC;
+  }
+  #newR h1{
+    text-align: right;
+    margin-right: 20px;
+  }
+  #newR p{
+    margin: 20px;
+    background-color:#86C8BC;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+  }
 
 }
+
 
 
