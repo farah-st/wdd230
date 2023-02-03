@@ -53,9 +53,9 @@ footer{
 footer img{
   max-width: 100px;
 }
-.spotlight, .large-Sp{
-  /* border: 1px solid rgb(118 172 67 / 80%); */
-}
+/* .spotlight, .large-Sp{
+  border: 1px solid rgb(118 172 67 / 80%);
+} */
 nav ul li a:hover{
   background-color:#FFD4B2;
   color: white;
@@ -100,6 +100,23 @@ img.logo{
 #weather img{
   max-width: 100%;
 }
+#hero button, #events button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 18px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#hero button:hover {
+  background-color: #86C8BC;
+}
+#events button:hover {
+  background-color: #86C8BC;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -125,7 +142,7 @@ img.logo{
   }
   .main-spotlight{
     display: grid;
-    grid-template-rows: repeat(2, 180px); 
+    grid-template-columns: 1fr; 
   }
   .spotlight{
     margin-right: 30px;
@@ -174,7 +191,6 @@ img.logo{
   header .social-media{
     display:none;
   }
-
   #weather{
     border-radius: 20px;
   }
@@ -220,20 +236,7 @@ img.logo{
     font-size: 20px;
     margin-top: 2px;
   }
-  #events button {
-    background-color: #fff;
-    border: 1px solid #d5d9d9;
-    border-radius: 18px;
-    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-    box-sizing: border-box;
-    font-size: 13px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-
-  #events button:hover {
-    background-color: #86C8BC;
-  }
+  
   #newR h1{
     text-align: right;
     margin-right: 20px;
@@ -245,20 +248,50 @@ img.logo{
     border-radius: 10px;
     font-size: 17px;
   }
-  #spotlight-1{
+  #spotlight-1, #spotlight-2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    font-size: 18px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 10px;
+    background-color:#86C8BC;
   }
+  
   #spotlight-1 img{
     width: 100%
   }
+  #spotlight-1 h3{
+    margin-top: 0;
+  }
   #spotlight-1 p{
-    font-size: 18px;
-    text-align: right;
-    margin-right: 15px;
-    padding: 5px;
-    background-color:#86C8BC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #spotlight-2 img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  #spotlight-2 h3{
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  #spotlight-2 h4{
+    color: #fff;
+  }
+  #spotlight-2 p{
+    margin: 0;
+  }
+  #hero h2{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+  }
+  #hero button{
+    position: absolute;
+    right: 210px;
+    top: 230px;
   }
 
 }
