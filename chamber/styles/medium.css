@@ -210,6 +210,8 @@
     #spotlight-2 img{
         display: none;
     }
-
+    .largeImg{
+        display: none;
+      }
 }
 

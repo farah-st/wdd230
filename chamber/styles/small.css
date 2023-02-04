@@ -359,6 +359,9 @@ img.logo{
   #spotlight-2 iframe{
     display: none;
   }
+  .largeImg{
+    display: none;
+  }
 
 }
 
