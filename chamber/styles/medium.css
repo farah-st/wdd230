@@ -156,7 +156,6 @@
         grid-gap: 10px;
     }
     #spotlight-1, #spotlight-2{
-        border: 1px solid #86C8BC;
         padding: 10px;
         background-color:#86C8BC ;
         text-align: center;
@@ -167,10 +166,11 @@
         width: 100%;
     }
     #join p{
-        padding: 10px;
+        padding: 20px;
         text-align: center;
         background-color:#86C8BC;
         margin-top: 0;
+        border-radius: 10px;
     }
     #events{
         text-align: center;
@@ -179,7 +179,37 @@
         margin: 30px;
     }
     #events p{
-        margin: 60px;
+        margin: 40px;
+        background-color: #86C8BC;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
     }
+    #hero button, #events button, #join button{
+        font-size: 20px;
+    }
+    .summary{
+        background-color: #CEEDC7;
+        text-align: center;
+        border-radius: 15px;
+        padding: 5px;
+        top: 70px;
+        left: 10px;
+    }
+    #hero h2{
+        font-size: 15px;
+    }
+    .one iframe{
+        width: 100%;
+        height: 50%;
+    }
+    #spotlight-2 iframe{
+        width: 100%;
+        height: 50%;
+    }
+    #spotlight-2 img{
+        display: none;
+    }
+
 }
 

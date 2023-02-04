@@ -87,6 +87,12 @@ color: #ffffff;
 background-color: #e1306c;
 color: #ffffff;
 }
+.wrapper .facebook:hover{
+  width: 40%;
+}
+.wrapper .instagram:hover{
+  width: 40%;
+}
 .last-footer{
   background-color:#FFD4B2;
   color: black;
@@ -106,7 +112,7 @@ img.logo{
   border-radius: 18px;
   box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
   box-sizing: border-box;
-  font-size: 18px;
+  /* font-size: 18px; */
   padding: 10px;
   margin-bottom: 10px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -276,13 +282,19 @@ img.logo{
     margin-right: 15px;
     padding: 10px;
     background-color:#86C8BC;
+    border-radius: 10px;
   }
   #spotlight-1 h3{
     margin-top: 0;
   }
-  #spotlight-1 p{
-    margin-top: 5px;
+  #spotlight-1 p:nth-child(3){
+    margin-top: 50px;
     margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+  }
+  #spotlight-1 p:nth-child(5){
+    margin: 0;
   }
   #spotlight-2 img{
     width: 100%;
@@ -309,12 +321,38 @@ img.logo{
     top: 230px;
   } */
   
-  .summary{
-    top: 10px;
-    left: 200px;
-  }
   #newR p{
     font-size: 17px;
+  }
+  .summary{
+    background-color: #CEEDC7;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    top: 30px;
+    left: 10px;
+  }
+  .summary button{
+    width: 160px;
+  }
+  #hero h2{
+    font-size: 15px;
+  }
+  #hero button, #events button, #join button{
+    font-size: 15px;
+  }
+  #events button{
+    width: 100%;
+  }
+  iframe{
+    max-width: 70%;
+    height: 50%;;
+  }
+  #spotlight-2 h5{
+    margin: 0;
+  }
+  #spotlight-2 iframe{
+    display: none;
   }
 
 }
