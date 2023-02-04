@@ -137,6 +137,7 @@
         grid-row: 3/4;
         margin-top: 0px;
         margin-bottom: 0px;
+        font-size: 13px;
     }
     main div:nth-child(5){
         /* .spotlight{ */
@@ -144,6 +145,7 @@
         grid-row: 1/4;
         margin-top: 0px;
         margin-bottom: 0px;
+        font-size: 12px;
     }
     .main-spotlight{
         display: grid;
@@ -207,6 +209,10 @@
     .first-footer img{
         max-width: 140px;
     }
+    .first-footer iframe{
+        width: 90%;
+        height: 50%;
+    }
     .first-footer .one:nth-child(2){
         padding-top: 30px;
     }
@@ -262,8 +268,4 @@
     .largeImg{
         width: 100%;
     }
-      
-
-
-    
 }
