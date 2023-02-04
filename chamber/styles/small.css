@@ -100,7 +100,7 @@ img.logo{
 #weather img{
   max-width: 100%;
 }
-#hero button, #events button {
+#hero button, #events button, #join button{
   background-color: #fff;
   border: 1px solid #d5d9d9;
   border-radius: 18px;
@@ -112,11 +112,52 @@ img.logo{
   font-family: 'Source Sans Pro', sans-serif;
 }
 #hero button:hover {
-  background-color: #86C8BC;
+  background-color: #FFD4B2;
 }
 #events button:hover {
-  background-color: #86C8BC;
+  background-color: #FFD4B2;
 }
+#join button:hover {
+  background-color: #FFD4B2;
+}
+#weather h4{
+  text-align: center;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #ffe522, #646641);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 0;
+}
+#newR p{
+  margin: 20px;
+  background-color:#86C8BC;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+#hero{
+  position: relative;
+}
+
+.summary{
+  position: absolute;
+}
+#weather h1{
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  color: #6c6907;
+}
+#weather p{
+  background-color: #86C8BC;
+  border-radius: 10px;
+  padding: 10px;
+}
+#spotlight-1 img{
+  width: 100%
+}
+
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -194,32 +235,16 @@ img.logo{
   #weather{
     border-radius: 20px;
   }
-  #weather h1{
-    text-align: center;
-    margin: 0;
-    margin-top: 10px;
-    color: #6c6907;
-  }
+
   #weather p{
     text-align: right;
     font-size: 20px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 0;
-    background-color: #86C8BC;
-    border-radius: 10px;
-    padding: 10px;
   }
-
   #weather h4{
-    text-align: center;
     font-size: 50px;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #ffe522, #646641);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    margin: 0;
   }
   #events h1{
     text-align: center;
@@ -241,13 +266,7 @@ img.logo{
     text-align: right;
     margin-right: 20px;
   }
-  #newR p{
-    margin: 20px;
-    background-color:#86C8BC;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 17px;
-  }
+  
   #spotlight-1, #spotlight-2{
     display: grid;
     grid-template-columns: 1fr;
@@ -257,10 +276,6 @@ img.logo{
     margin-right: 15px;
     padding: 10px;
     background-color:#86C8BC;
-  }
-  
-  #spotlight-1 img{
-    width: 100%
   }
   #spotlight-1 h3{
     margin-top: 0;
@@ -283,7 +298,7 @@ img.logo{
   #spotlight-2 p{
     margin: 0;
   }
-  #hero h2{
+  /* #hero h2{
     position: absolute;
     top: 130px;
     left: 230px;
@@ -292,6 +307,14 @@ img.logo{
     position: absolute;
     right: 210px;
     top: 230px;
+  } */
+  
+  .summary{
+    top: 10px;
+    left: 200px;
+  }
+  #newR p{
+    font-size: 17px;
   }
 
 }
