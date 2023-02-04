@@ -79,6 +79,11 @@ nav ul li a:hover{
   color: #333;
   text-decoration: none;
 }
+#spotlight-2 h3, #spotlight-1 h3, #spotlight-3 h3{
+  background-color: white;
+  border-radius: 50px;
+  padding: 4px;
+}
 .wrapper .facebook {
 background-color: #3b5999;
 color: #ffffff;
@@ -118,13 +123,13 @@ img.logo{
   font-family: 'Source Sans Pro', sans-serif;
 }
 #hero button:hover {
-  background-color: #FFD4B2;
+  width: 100%;
 }
 #events button:hover {
-  background-color: #FFD4B2;
+  width: 100%;
 }
 #join button:hover {
-  background-color: #FFD4B2;
+  width: 100%;
 }
 #weather h4{
   text-align: center;
