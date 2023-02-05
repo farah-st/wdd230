@@ -26,5 +26,5 @@ let date = new Date();
 // returns a number 0-sun , 1-mon 
 weekDay= date.getDay(); 
 if(weekDay == 1 || weekDay == 2) {
-	document.getElementById("date1").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
+	document.getElementById("date2").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
 };

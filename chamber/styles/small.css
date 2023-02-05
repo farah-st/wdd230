@@ -173,6 +173,11 @@ img.logo{
   border-radius: 10px;
   margin-bottom: 5px;
 }
+#date2{
+  text-align: center;
+  grid-column: 1/5;
+  
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
