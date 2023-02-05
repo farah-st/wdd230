@@ -168,7 +168,11 @@ img.logo{
 #spotlight-1 img{
   width: 100%
 }
-
+.vineyard{
+  background-color: #CEEDC7;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -244,18 +248,33 @@ img.logo{
     display:none;
   }
   #weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-radius: 20px;
   }
-
+  #weather h1{
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  #weather img{
+    grid-column: 1/2;
+    grid-row: 2/5;
+    width: 100%;
+  }
   #weather p{
-    text-align: right;
-    font-size: 20px;
+    grid-column: 2/3;
+    text-align: center;
+    font-size: 18px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 0;
+    align-self: center;
+    margin: 0 5px;
   }
   #weather h4{
     font-size: 50px;
+    grid-column: 1/3;
+    grid-row: 5;
   }
   #events h1{
     text-align: center;

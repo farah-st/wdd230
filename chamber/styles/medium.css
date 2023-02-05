@@ -161,6 +161,15 @@
         text-align: center;
         border-radius: 10px;
     }
+    #spotlight-2 .vineyard p{
+        margin: 2px;
+    }
+    #spotlight-2 .vineyard h5{
+        margin: 2px;
+    }
+    #spotlight-2 .vineyard{
+        margin-top: 30px;
+    }
     #join button{
         margin-top: 5px;
         width: 95%;

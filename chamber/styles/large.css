@@ -2,7 +2,6 @@
     nav button{
         display: none;
     }
-
     nav ul#primaryNav{
         display: flex;
         /*justify-content: flex-end;*/
@@ -74,6 +73,13 @@
         grid-row: 1/3;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+    #hero h3{
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 2px;
+        margin-bottom: 5px;
     }
     #events{
         grid-column: 1;
@@ -198,10 +204,7 @@
     #spotlight-3 p{
         margin: 5px;
     }
-    .vineyard{
-        background-color: #CEEDC7;
-        border-radius: 10px;
-    }
+    
     .first-footer{
         display:grid;
         grid-template-columns: 0.5fr 2fr 1.5fr;
