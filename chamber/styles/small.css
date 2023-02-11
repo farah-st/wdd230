@@ -93,10 +93,12 @@ background-color: #e1306c;
 color: #ffffff;
 }
 .wrapper .facebook:hover{
-  width: 40%;
+  width: 30%;
+  height: 30%;
 }
 .wrapper .instagram:hover{
-  width: 40%;
+  width: 30%;
+  height: 30%;
 }
 .last-footer{
   background-color:#FFD4B2;
@@ -176,6 +178,8 @@ img.logo{
 #date2{
   text-align: center;
   grid-column: 1/5;
+  background-color: #FFD4B2;
+  padding: 5px;
   
 }
 @media screen and (max-width: 550.9px){
