@@ -28,3 +28,7 @@ weekDay= date.getDay();
 if(weekDay == 1 || weekDay == 2) {
 	document.getElementById("date2").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
 };
+
+//storage locan and session 
+localStorage.setItem("name", "Farah Stumpf - Permanent");
+sessionStorage.setItem("class", "WDD230 - not Permanent");
