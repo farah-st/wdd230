@@ -3,3 +3,9 @@ picture img{
     margin: 0 auto;
     padding: 5px;
 }
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.303);
+}
