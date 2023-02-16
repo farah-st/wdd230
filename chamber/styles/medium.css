@@ -116,9 +116,6 @@
         grid-row: 1;
         padding-top: 30px;
     }
-    #hero img{
-        max-width: 100%;
-    }
     #weather img{
         max-width: 50%;
         margin-left: 55px;
