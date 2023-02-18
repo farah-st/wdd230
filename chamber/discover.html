@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/discoverSm.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
   <link rel="stylesheet" href="styles/normalize.css">
@@ -18,7 +18,7 @@
   <script defer src ="scripts/main.js"></script>
   <script defer src ="scripts/discover.js"></script>
   <title> 
-    Chambers Home Page Build
+    Chambers Discover Page Build
   </title>
 </head>
 <body>
@@ -43,7 +43,7 @@
           Chamber of Commerce
         </p>
       </div>
-      <img class="logo" src="images/logo.png" alt="logo">
+      <img class="logo" src="images/logo.webp" alt="logo">
     <span id="date1"></span>
     <span id="date2"></span>
     <div class="social-media">
@@ -58,11 +58,44 @@
     </div>
   </header>
   <main>
-    <h2 id="days"> <span id="diff"></span> days since last visited </h2>
+    <h2> Places you can visit:</h2>
+    <hr>
+    <picture class="gallery">
+      <source media="(max-width: 500px)" srcset="images/dolores-hidalgo-guanajuato-dis-400.jpg">
+      <img src="images/dolores-hidalgo-guanajuato-dis-500.jpg" alt="town sign">
+      <div class="description">Come take a picture at the monument of the Independence</div>
+    </picture>
+      <picture class="gallery">
+        <source media="(max-width: 500px)" srcset="images/dolores_general-dis-400.jpg">
+        <img src="images/dolores_general-dis-500.jpg" alt="town's catholic church">
+        <div class="description">Take a walk in the beautiful downtown and enjoy some ice cream!</div>
+      </picture>
+    <picture class="gallery">
+      <source media="(max-width: 500px)" srcset="images/DoloresHidalgo167-dis-400.jpg">
+      <img src="images/doloreshidalgo167-dis-500.jpg" alt="town's downtown">
+      <div class="description">Look at the monument of one of the Father's of the Independence</div>
+    </picture>
+    <picture class="gallery">
+      <source media="(max-width: 500px)" srcset="images/store-section-dis-400.jpg">
+      <img src="images/store-section-dis-500.jpg" alt="town's downtown">
+      <div class="description">There is a variety of stores where you can buy souvenirs</div>
+    </picture>
+  <picture class="gallery">
+      <source media="(max-width: 500px)" srcset="images/store-in-dh-dis-400.jpg">
+      <img src="images/store-in-dh-dis-500.jpg" alt="talavera store">
+      <div class="description">Dolores Hidalgo has the most affordable Talavera, add color to your house!</div>
+    </picture>
+    <picture class="gallery">
+      <source media="(max-width: 500px)" srcset="images/alameda-dis-400.jpg">
+      <img src="images/alameda-dis-500.jpg" alt="park in Dolores Hidalgo">
+      <div class="description">There are many parks you can visit, but "La Alameda" is one of the prettiest and most known parks</div>
+    </picture>
+    
   </main>
   <footer>
+    <h2 id="days"> <span id="diff"></span> days since last visited </h2>
     <div class="first-footer">
-      <img src="images/logo.png" alt="logo">
+      <img src="images/logo.webp" alt="logo">
       <div class="one">
         <h3>Dolores Hidalgo's Chamber of Commerce</h3>
         <p class="adress">San Miguel el Grande #38</p>
