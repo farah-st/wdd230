@@ -118,9 +118,14 @@ h2{
 .gallery{
   /* display: flex;
   justify-items:center;
-  align-items: center; */
+  align-items: center; */ 
   border: 1px solid #ccc;
-
+}
+.flex{
+  display: flexbox;
+}
+img{
+  width: 100%;
 }
 .description{
   padding: 15px;
@@ -130,6 +135,11 @@ h2{
 @media screen and (max-width: 550.9px){
   .description{
     font-size: 17px;
+  }
+  .grid-dis{
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: center;
   }
   header{
     display: grid;
@@ -181,3 +191,49 @@ h2{
   }
 
 }
+
+@media screen and (min-width: 551px) and (max-width: 1023.9px){
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 0.4fr;
+}
+.second-grid{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: right;
+    line-height: 1px;
+}
+.header p{
+    font-size: 30px;
+}
+#date1{
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 15px;
+}
+
+.last-footer{
+    display: grid;
+    grid-template-columns: 3fr 0.7fr 0.7fr;
+    font-size: 13px;
+    /* text-align: left; */
+}
+.last-footer p:nth-child(1){
+    text-align: right;
+}
+.last-footer p:nth-child(2){
+    text-align: center;
+}
+#lastUpdate{
+    text-align: center;
+    margin-top: 0px;
+}
+
+header .social-media{
+    grid-column: 4;
+    grid-row: 1;
+    padding-top: 30px;
+}
+
+}
+
