@@ -218,5 +218,13 @@
     .largeImg{
         display: none;
       }
+    .gallery{
+    font-size: 18px;
+    }
+    .grid-disc{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
 

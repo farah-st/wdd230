@@ -182,6 +182,31 @@ img.logo{
   padding: 5px;
   
 }
+.gallery{
+  /* display: flex;
+  justify-items:center;
+  align-items: center; */ 
+  border: 1px solid #ccc;
+}
+.flex{
+  display: flexbox;
+}
+img{
+  width: 100%;
+}
+.description{
+  padding: 15px;
+  text-align: center;
+  background-color: #86C8BC;
+}
+.grid-disc{
+  background-color: #CEEDC7;
+}
+h2{
+  text-align: center;
+  padding: 10px;
+  margin: 10px 20px 0 20px;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -389,6 +414,14 @@ img.logo{
   }
   .largeImg{
     display: none;
+  }
+  .description{
+    font-size: 17px;
+  }
+  .grid-dis{
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: center;
   }
 
 }

@@ -56,8 +56,13 @@
     .second-grid{
         line-height: 15px;
     }
+    main{
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+    }
 
-    .grid{
+    .grid-disc{
         display: grid;
         grid-template-columns: 1fr 1fr;
         font-size: 15px;
