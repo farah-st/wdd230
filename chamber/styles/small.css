@@ -207,6 +207,14 @@ h2{
   padding: 10px;
   margin: 10px 20px 0 20px;
 }
+.grid-disc img:hover{
+  max-width: 98%;
+}
+/* .grid-disc img{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+} */
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -422,6 +430,9 @@ h2{
     display: grid;
     grid-template-rows: 1fr;
     place-items: center;
+  }
+  .grid-disc img:hover{
+    max-width: 100%;
   }
 
 }
