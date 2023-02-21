@@ -1,0 +1,26 @@
+table, th, td{
+    /* border: 1px solid black; */
+    caption-side: bottom;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+/* thead th:nth-last-of-type(1){ another way to do it */
+thead th:nth-child(1){
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+
+thead th{
+    background-color: rgb(28, 21, 21, 0.796);
+    color: white;
+}
+
+tbody tr:nth-last-of-type(even){
+    background-color: #cccccc6e;
+}
+
+tbody th, tbody td{
+    border: 1px solid gray;
+}
