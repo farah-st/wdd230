@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <meta name="description" content="The Discover Page- Image Section">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/discoverLar.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="icon" href="favicon.ico">
+  <script defer src ="scripts/main.js"></script>
+  <script defer src ="scripts/discover.js"></script>
+  <script defer src ="scripts/lazyload.js"></script>
+  <title> 
+    Join Page
+  </title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Contact</a></li>    
+          <li><a href="#">Location</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="second-grid">
+        <h3>
+          Dolores Hidalgo
+        </h3>
+        <p>
+          Chamber of Commerce
+        </p>
+      </div>
+      <img class="logo" src="images/logo.webp" alt="logo">
+    <span id="date1"></span>
+    <span id="date2"></span>
+    <div class="social-media">
+      <div class="wrapper">
+        <a class="icon facebook" href="https://www.facebook.com/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="icon instagram" href="https://www.instagram.com/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="join_main">
+    <form method="get" action="thankyou.html">
+        <label for="fname"> First Name*: </label>
+        <input id="fname" name="firstname" required>
+        <label for="lname"> Last Name*: </label>
+        <input id="lname" name="lastname" required>
+        <label for="title"> Business Position Title*: </label>
+        <input id="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
+        <label for="email"> Email*:</label>
+        <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+        <label for="phone"> Cell Phone*: </label>
+        <input id="phone" name="phone" type="tel" placeholder="123-123-1234" required>
+        <label for="business"> Business Name*: </label>
+        <input id="business" name="bizname" required>
+        <label for="member">Enter your Level of Membership</label>
+        <div id="radio">
+            <input id="member" type="radio" id="one" name="alevel">
+            <label for="one"> Level 1</label>
+            <input id="member" type="radio" id="two" name="alevel">
+            <label for="one"> Level 2</label>
+            <input id="member" type="radio" id="three" name="alevel">
+            <label for="one"> Level 3</label>
+            <input id="member" type="radio" id="four" name="alevel">
+            <label for="one"> Level 4</label>
+        </div>
+        <input type="submit" value="Join the Chamber">
+    </form>
+  </main>
+  <footer>
+    <h2 id="days"> <span id="diff"></span> days since last visited </h2>
+    <div class="first-footer">
+      <img src="images/logo.webp" alt="logo">
+      <div class="one">
+        <h3>Dolores Hidalgo's Chamber of Commerce</h3>
+        <p class="adress">San Miguel el Grande #38</p>
+        <p class="adress">Dolores Hidalgo, GTO. 37800</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.9962681911356!2d-100.9084043!3d21.1525468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b3f3c4680de2b%3A0x5f49ea972a67607a!2sSan%20Miguel%20El%20Grande%20138%2C%20El%20Pipila%2C%2037800%20Dolores%20Hidalgo%20Cuna%20de%20la%20Independencia%20Nacional%2C%20Gto.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1675521704840!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="two">
+        <p>info@doloreshgo.org</p>
+        <p>+(208) 970 5446</p>
+      </div>
+    </div>
+    <div class="last-footer">
+      <p>&copy;2023 Dolores Hidalgo's Chambers of Commerce</p>
+      <p>&#9830; Farah P. Stumpf &#9830;</p>
+      <p>WDD 230 Project</p>
+    </div>
+    <p id="lastUpdate"></p>
+  </footer>
+</body>
+</html>
