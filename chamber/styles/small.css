@@ -182,12 +182,7 @@ img.logo{
   padding: 5px;
   
 }
-.gallery{
-  /* display: flex;
-  justify-items:center;
-  align-items: center; */ 
-  border: 1px solid #ccc;
-}
+
 .flex{
   display: flexbox;
 }
@@ -209,6 +204,7 @@ h2{
 }
 .grid-disc img:hover{
   max-width: 98%;
+  
 }
 /* .grid-disc img{
     display: block;
