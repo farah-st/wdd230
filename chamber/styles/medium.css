@@ -229,5 +229,10 @@
     .social-media{
         display: none;
     }
+    /*join*/
+    .join_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
 }
 

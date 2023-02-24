@@ -271,4 +271,16 @@
     .largeImg{
         width: 100%;
     }
+
+    /*Join  page*/
+    .join_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      #bronze, #gold{
+        font-size: 20px;
+      }
+      #silver{
+        font-size:20px;
+      }
 }

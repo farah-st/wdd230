@@ -258,14 +258,40 @@ input, textarea{
 input[type="submit"]{
   height: 80px;
   width: 75%;
-  background-color: rgb(35,121,150);
-  color: white;
+  background-color: #dfd4d0ee ;
   border-radius: 10px;
 }
 input[type="submit"]:hover{
-  background-color: red;
+  background-color: white;
 }
-
+.ref{
+  text-decoration: none;
+}
+.join_main{
+  background-color: #86C8BC;
+  padding: 10px;
+}
+#membership{
+  margin-top:100px;
+}
+#bronze, #gold{
+  background-color: #CEEDC7;
+}
+#silver{
+  background-color: #FFF6BD;
+}
+#bronze, #silver, #gold{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+}
+#membership h3{
+  margin: 0;
+  text-align: center;
+}
+#membership h4{
+  margin: 0;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -486,17 +512,5 @@ input[type="submit"]:hover{
     max-width: 100%;
   }
 
-}
-
-/*JOIN page CSS*/
-label, input{
-  display: block;
-  font-size: 1.5em;
-}
-label{
-  margin-top: 20px;
-}
-input{
-  height: 44px;
 }
 
