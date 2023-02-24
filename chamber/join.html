@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/medium.css">
-  <link rel="stylesheet" href="styles/discoverLar.css">
+  <link rel="stylesheet" href="styles/large.css"
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="icon" href="favicon.ico">
   <script defer src ="scripts/main.js"></script>
@@ -59,32 +59,76 @@
     </div>
   </header>
   <main class="join_main">
+    <div id="join_form">
     <form method="get" action="thankyou.html">
-        <label for="fname"> First Name*: </label>
+        <label for="fname"> First Name: </label>
         <input id="fname" name="firstname" required>
-        <label for="lname"> Last Name*: </label>
+        <label for="lname"> Last Name: </label>
         <input id="lname" name="lastname" required>
-        <label for="title"> Business Position Title*: </label>
+        <label for="title"> Business Position Title: </label>
+      <span> Only letters, dashes and spaces, 7 or more letters</span>
         <input id="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
-        <label for="email"> Email*:</label>
+        <label for="email"> Email:</label>
         <input id="email" name="email" type="email" placeholder="name@domain.com" required>
-        <label for="phone"> Cell Phone*: </label>
+        <label for="phone"> Cell Phone: </label>
         <input id="phone" name="phone" type="tel" placeholder="123-123-1234" required>
-        <label for="business"> Business Name*: </label>
+        <label for="business"> Business Name: </label>
         <input id="business" name="bizname" required>
         <label for="member">Enter your Level of Membership</label>
         <div id="radio">
-            <input id="member" type="radio" id="one" name="alevel">
+            <input id="member" id="one" type="radio" name="alevel">
             <label for="one"> Level 1</label>
-            <input id="member" type="radio" id="two" name="alevel">
-            <label for="one"> Level 2</label>
-            <input id="member" type="radio" id="three" name="alevel">
-            <label for="one"> Level 3</label>
-            <input id="member" type="radio" id="four" name="alevel">
-            <label for="one"> Level 4</label>
+            <input id="member" id="two" type="radio" name="alevel">
+            <label for="two"> Level 2</label>
+            <input id="member"id="three" type="radio" name="alevel">
+            <label for="three"> Level 3</label>
+            <input id="member" id="for" type="radio"  name="alevel">
+            <label for="four"> Level 4</label>
         </div>
+      <label for="message"> Business Description:</label>
+      <textarea id="message"></textarea>
+      <input id="date" type="hidden" name="todaydate">
+      <a href="thankyou.html">
         <input type="submit" value="Join the Chamber">
+      </a>
     </form>
+    </div>
+    <div>
+      <h2>
+        Membership Levels
+      </h2>
+      <h3> 
+        NP Membership is for non profit organizations and there is no fee.
+      </h3>
+      <h4>
+        Bronze Membership: 
+      </h4>
+      <ul>
+        <li>15% discounts on events</li>
+        <li>10% discount on advertising </li>
+        <li>Fee of $50/month</li>
+      </ul>  
+      <h4>
+        Silver Membership: 
+      </h4>
+      <ul>
+        <li>25% discount on events</li>
+        <li>15% discount on advertising </li>
+        <li>Free participation in the trade fair</li>
+        <li>Fee of $100/month</li>
+      </ul>
+      <h4>
+        Gold Membership: 
+      </h4>
+      <ul>
+        <li>50% discount on events</li>
+        <li>50% discount on advertising</li>
+        <li>Free participation in the trade fair</li>
+        <li>5 free featured ads per year</li>
+        <li>1 free training per quarter</li>
+        <li>Fee of $100/month</li>
+      </ul>
+    </div>
   </main>
   <footer>
     <h2 id="days"> <span id="diff"></span> days since last visited </h2>
