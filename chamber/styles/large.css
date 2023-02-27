@@ -271,6 +271,9 @@
     .largeImg{
         width: 100%;
     }
+    .social-media{
+        display: none;
+    }
 
     /*Join  page*/
     .join_main{

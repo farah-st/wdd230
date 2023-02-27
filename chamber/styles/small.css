@@ -241,7 +241,7 @@ form input:required:valid{
 }
 #radio{
   display: grid;
-  grid-template-columns: 60px, 100px;
+  grid-template-columns: 60px 100px;
   align-items: center;
 }
 #radio label, #radio input{
@@ -291,6 +291,10 @@ input[type="submit"]:hover{
 }
 #membership h4{
   margin: 0;
+}
+.ty_main{
+  text-align: center;
+  background-color: #CEEDC7;
 }
 @media screen and (max-width: 550.9px){
   header{
