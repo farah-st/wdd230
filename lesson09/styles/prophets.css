@@ -1,0 +1,24 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+section{
+    border: 1px solid lightcoral;
+    background-color: pink;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards img{
+    width: 90%;
+    box-shadow: 5px 10px 8px 5px #888;
+}
+
+h1, h2{
+    text-align: center;
+    color: lightcoral;
+}
