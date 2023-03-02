@@ -28,3 +28,34 @@ p{
   line-height: 5px;
    font-family: Arial, Helvetica, sans-serif;
 }
+
+#cards, #list{
+    border: 3px solid lightcoral;
+    padding: 0 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 3px pink;
+}
+
+#view{
+    text-align: center;
+    font-size: 3em;
+}
+
+table{
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+
+td{
+    padding: 5px;
+    /* display: block;  */
+    display: table-cell;/*media query use table-cell*/
+}
+
+tr:nth-of-type(even){
+    background-color: lightcoral;
+}
+tr:nth-of-type(odd){
+    background-color: pink
+}

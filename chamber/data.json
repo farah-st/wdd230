@@ -1,0 +1,67 @@
+{
+    "business": [
+      {
+        "name": "Pollo Feliz",
+        "address": "Av. De los Heroes 123 E",
+        "phoneNumber": "418-182-7175",
+        "weburl": "http://www.pollofeliz.com/",
+        "imageurl": "http://www.pollofeliz.com/USA/img/pollo-feliz-logo.png"
+      },
+       {
+        "name": "Hotel Galería El Refugio",
+        "address": "Calle Guerrero #7-2",
+        "phoneNumber": "418-182-2778",
+        "weburl": "https://www.facebook.com/ElRefugioHG/",
+        "imageurl": "https://www.facebook.com/photo/?fbid=871164310889260&set=a.745233460149013"
+      },
+       {
+        "name": "Cuna de Tierra",
+        "address": " San Luis de la Paz Km.11.5, Rancho el Rosillo",
+        "phoneNumber": "415-152-6060   ",
+        "weburl": "https://www.cunadetierra.com/",
+        "imageurl": "https://www.cunadetierra.com/"
+      },
+       {
+        "name": "Casita Linda",
+        "address": "Zacateros 29-E, Centro,",
+        "phoneNumber": "415-152-0271",
+        "weburl": "https://casitalinda.org/",
+        "imageurl": "https://casitalinda.org/wp-content/uploads/2021/03/casitalinda_finallogo_logo-color-claro.png"
+      },
+       {
+        "name": "Antares",
+        "address": "Rayon #60",
+        "phoneNumber": "419-198-0381",
+        "weburl": "https://www.antarespasteleria.com/index.html",
+        "imageurl": "data:image/png;base64,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"
+      },
+       {
+        "name": "El Fruty Restaurante & Cafe",
+        "address": "Jardin Hidalgo No.2",
+        "phoneNumber": "418-152-2319",
+        "weburl": "http://elfruty.com.mx/",
+        "imageurl": "data:image/jpeg;base64,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"
+      },
+       {
+        "name": "Mi Pueblo Adorado",
+        "address": "Calle Coahuila #28",
+        "phoneNumber": "418-177-6905",
+        "weburl": "https://mipueloadorado.com",
+        "imageurl": "https://media-cdn.tripadvisor.com/media/photo-p/16/2c/40/44/mi-pueblo-adorado.jpg"
+      },
+       {
+        "name": "Élate: rollos de helado",
+        "address": "Smith",
+        "phoneNumber": "418-129-4131",
+        "weburl": "https://www.facebook.com/profile.php?id=100049647315695",
+        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1YjIS8DtWAkx_30GHj9wi8M3F8CREweBxHyCPyZZqmYzrxKyP1cZGqNEGrztAFVg-OU&usqp=CAU"
+      },
+      {
+        "name": "Galeria San Francisco",
+        "address": "N#2 de 138",
+        "phoneNumber": "415-152-6699",
+        "weburl": "https://www.facebook.com/galeriasanfranciscosma/",
+        "imageurl": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/298770046_474043891398634_4846498053177762426_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=plfcy5IbKukAX-hRtPS&_nc_ht=scontent-sea1-1.xx&oh=00_AfCAb86JbkVit_groN-xAMgxlE5UK8OlFWD-kWDccV9sUQ&oe=6406A3C4"
+      }
+    ]
+  }

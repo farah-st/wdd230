@@ -1,5 +1,5 @@
 const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-//fetc code
+//fetch code
 async function getProphetData() { //running asyncronist at least one await
     const response = await fetch(url);
     // console.log(response);
@@ -9,6 +9,7 @@ async function getProphetData() { //running asyncronist at least one await
     // reference the prophet array of the data object 
     // given the structure of the json file
     displayProphets(data.prophets);
+    // displayTable(data.prophets);
   }
   
   getProphetData();
@@ -25,6 +26,7 @@ async function getProphetData() { //running asyncronist at least one await
       let p2 = document.createElement('p');
       let portrait = document.createElement('img');
       
+
   
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${prophet.name} ${prophet.lastname}`;      
@@ -48,3 +50,29 @@ async function getProphetData() { //running asyncronist at least one await
     } // end of forEach loop
  )} // end of function expression
 
+function displayTable(prophets){
+  let row = document.querySelectorAll('tr');
+    row.forEach((item)=>{
+    item.remove();
+  })
+  let section = document.querySelectorAll('section');
+    section.forEach((item)=>{
+    item.remove();
+  })
+  prophets.forEach((prophet)=> {
+    let tr = document.createElement('tr');
+    let td_name = document.createElement('td');
+    let td_birthplace = document.createElement('td');
+    let td_birthdate = document.createElement('td');
+    
+    td_name.textContent = `${prophet.name} ${prophet.lastname}`;
+    td_birthplace.textContent = prophet.birthplace;
+    td_birthdate.textContent = prophet.birthdate;
+
+    tr.appendChild(td_name);
+    tr.appendChild(td_birthplace);
+    tr.appendChild(td_birthdate);
+    document.querySelector('table').appendChild(tr);
+
+  })
+}
