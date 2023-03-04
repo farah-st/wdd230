@@ -4,7 +4,8 @@
         "name": "Pollo Feliz",
         "address": "Av. De los Heroes 123 E",
         "phoneNumber": "418-182-7175",
-        "weburl": "http://www.pollofeliz.com/"
+        "weburl": "http://www.pollofeliz.com/",
+        "imageurl": "http://www.pollofeliz.com/USA/img/pollo-feliz-logo.png"
       },
        {
         "name": "Hotel Galería El Refugio",
@@ -19,7 +20,7 @@
         "weburl": "https://www.cunadetierra.com/"
       },
        {
-        "name": "Casita Linda",
+        "name": "Casita Linda", 
         "address": "Zacateros 29-E, Centro,",
         "phoneNumber": "415-152-0271",
         "weburl": "https://casitalinda.org/"

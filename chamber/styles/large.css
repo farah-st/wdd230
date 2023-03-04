@@ -286,4 +286,8 @@
       #silver{
         font-size:20px;
       }
+      /* Directory*/
+      .directory{
+        max-width: 100%;
+      }
 }

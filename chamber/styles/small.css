@@ -297,15 +297,58 @@ input[type="submit"]:hover{
   background-color: #CEEDC7;
 }
 /* Directory */
-.directory #view{
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+section{
+  border: 1px solid #86C8BC;
+  background-color: #CEEDC7;
+  padding: 30px;
+  width: 300px;
+  margin: 20px;
+}
+/* .cards img{
+  width: 90%;
+  box-shadow: 5px 10px 8px 5px #888;
+} */
+/* h1, h2{
+  text-align: center;
+  color: lightcoral;
+  margin: 0;
+} */
+.directory p{
+  line-height: 30px;
+  font-size: 18px;
+}
+#cards, #list{
+  border: 3px solid #CEEDC7;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 3px #86C8BC;
+}
+#view{
   text-align: center;
   font-size: 3em;
 }
-#cards, #list{
-  border: 1px solid #CEEDC7;
-  padding: 0 8px;
-  cursor: pointer;
-  box-shadow: 3px 3px 10px 3px #86C8BC;
+table{
+  width: 75%;
+  margin: 50px auto;
+  font-size: 1.2em;
+}
+
+td{
+  padding: 5px;
+  /* display: block;  */
+  display: table-cell;/*media query use table-cell*/
+}
+tr:nth-of-type(even){
+  background-color: lightcoral;
+}
+tr:nth-of-type(odd){
+  background-color: pink
 }
 @media screen and (max-width: 550.9px){
   header{
