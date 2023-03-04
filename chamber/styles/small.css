@@ -296,6 +296,17 @@ input[type="submit"]:hover{
   text-align: center;
   background-color: #CEEDC7;
 }
+/* Directory */
+.directory #view{
+  text-align: center;
+  font-size: 3em;
+}
+#cards, #list{
+  border: 1px solid #CEEDC7;
+  padding: 0 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 3px #86C8BC;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
