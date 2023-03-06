@@ -4,7 +4,6 @@ async function getBiz(){
     const response = await fetch(url);
     const data = await response.json();
     
-    // displayBusiness(data.business);
     cards();
 
     document.body.querySelector('#cards').addEventListener('click', cards);
@@ -23,7 +22,15 @@ getBiz();
 
 const displayBusiness = (business) => {
     const cards = document.querySelector("div.cards");
-
+    let row = document.querySelectorAll('tr');
+    row.forEach((item)=>{
+        item.remove();
+    })
+    let section = document.querySelectorAll('section');
+    section.forEach((item)=>{
+        item.remove();
+    })
+    
     business.forEach((biz)=> {
         let card = document.createElement("section");
         let bName = document.createElement('p');

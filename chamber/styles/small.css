@@ -303,7 +303,7 @@ input[type="submit"]:hover{
   text-align: center;
   justify-content: center;
 }
-section{
+.directory section{
   border: 1px solid #86C8BC;
   background-color: #CEEDC7;
   padding: 30px;
@@ -323,7 +323,7 @@ section{
   line-height: 30px;
   font-size: 18px;
 }
-#cards, #list{
+.directory #cards, .directory #list{
   border: 3px solid #CEEDC7;
   padding: 5px;
   cursor: pointer;
@@ -332,6 +332,7 @@ section{
 #view{
   text-align: center;
   font-size: 3em;
+  padding-top: 30px;
 }
 table{
   width: 75%;
@@ -571,6 +572,10 @@ tr:nth-of-type(odd){
   }
   .grid-disc img:hover{
     max-width: 100%;
+  }
+  /* directory */
+  td{
+    display: block;
   }
 
 }
