@@ -307,7 +307,7 @@ section{
   border: 1px solid #86C8BC;
   background-color: #CEEDC7;
   padding: 30px;
-  width: 300px;
+  width: 400px;
   margin: 20px;
 }
 /* .cards img{
@@ -338,17 +338,20 @@ table{
   margin: 50px auto;
   font-size: 1.2em;
 }
-
+.directory h4{
+  padding: 0;
+  text-align: center;
+}
 td{
   padding: 5px;
   /* display: block;  */
   display: table-cell;/*media query use table-cell*/
 }
 tr:nth-of-type(even){
-  background-color: lightcoral;
+  background-color: #86C8BC;
 }
 tr:nth-of-type(odd){
-  background-color: pink
+  background-color: #CEEDC7;
 }
 @media screen and (max-width: 550.9px){
   header{

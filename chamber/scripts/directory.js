@@ -3,7 +3,19 @@ const url = 'https://farah-st.github.io/wdd230/chamber/data.json';
 async function getBiz(){
     const response = await fetch(url);
     const data = await response.json();
+    console.log(response);
     displayBusiness(data.business);
+    cards();
+    document.body.querySelector('#cards').addEventListener('click', cards);
+    document.body.querySelector('#table').addEventListener('click', table);
+
+    function cards(){
+      displayBusiness(data.business);
+    }
+
+    function table(){
+      displayTable(data.business);
+    }
 }
 
 getBiz();
@@ -33,6 +45,37 @@ const displayBusiness = (business) => {
         card.appendChild(p3);
         card.appendChild(h4);
         cards.appendChild(card);
+    })
+}
+
+function displayTable(business){
+    let row = document.querySelectorAll('tr');
+    row.forEach((item)=>{
+        item.remove();
+    })
+    let section = document.querySelectorAll('section');
+    section.forEach((item)=>{
+        item.remove();
+    })
+
+    business.forEach((biz)=>{
+        let tr = document.createElement('tr');
+        let td_name = document.createElement('td');
+        let td_address = document.createElement('td');
+        let td_phoneNumber = document.createElement('td');
+        let td_weburl = document.createElement('td');
+
+        td_name.textContent = `${biz.name}`;
+        td_address.textContent = `${biz.address}`;
+        td_phoneNumber.textContent = `${biz.phoneNumber}`;
+        td_weburl.textContent = `${biz.weburl}`;
+
+        tr.appendChild(td_name);
+        tr.appendChild(td_address);
+        tr.appendChild(td_phoneNumber);
+        tr.appendChild(td_weburl);
+        document.querySelector('table').appendChild(tr);
+
     })
 }
 

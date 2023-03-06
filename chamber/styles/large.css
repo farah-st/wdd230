@@ -290,4 +290,7 @@
       .directory{
         max-width: 100%;
       }
+      td{
+        display: block;
+      }
 }
