@@ -3,11 +3,12 @@ const url = 'https://farah-st.github.io/wdd230/chamber/data.json';
 async function getBiz(){
     const response = await fetch(url);
     const data = await response.json();
-    console.log(response);
-    displayBusiness(data.business);
+    
+    // displayBusiness(data.business);
     cards();
+
     document.body.querySelector('#cards').addEventListener('click', cards);
-    document.body.querySelector('#table').addEventListener('click', table);
+    document.body.querySelector('#list').addEventListener('click', table);
 
     function cards(){
       displayBusiness(data.business);
@@ -22,28 +23,29 @@ getBiz();
 
 const displayBusiness = (business) => {
     const cards = document.querySelector("div.cards");
+
     business.forEach((biz)=> {
         let card = document.createElement("section");
-        let p1 = document.createElement('p');
-        let p2 = document.createElement('p');
-        let p3 = document.createElement('p');
-        let h4 = document.createElement('h4');
+        let bName = document.createElement('p');
+        let address = document.createElement('p');
+        let phonenumber = document.createElement('p');
+        let web = document.createElement('h4');
         let portrait = document.createElement('img');
 
-        p1.textContent = `Business name: ${biz.name}`;   
-        p2.textContent = `Address: ${biz.address}`; 
-        p3.textContent = `Phone Number: ${biz.phoneNumber}`;
-        h4.textContent = `${biz.weburl}`;
+        bName.textContent = `Business name: ${biz.name}`;   
+        address.textContent = `Address: ${biz.address}`; 
+        phonenumber.textContent = `Phone Number: ${biz.phoneNumber}`;
+        web.textContent = `${biz.weburl}`;
 
-        portrait.setAttribute('images', biz.imageurl);
+        portrait.setAttribute('src', biz.imageurl);
         portrait.setAttribute('alt', `${biz.name} logo`);
         portrait.setAttribute('loading', 'lazy');
 
         // card.appendChild(portrait);
-        card.appendChild(p1);
-        card.appendChild(p2);
-        card.appendChild(p3);
-        card.appendChild(h4);
+        card.appendChild(bName);
+        card.appendChild(address);
+        card.appendChild(phonenumber);
+        card.appendChild(web);
         cards.appendChild(card);
     })
 }
@@ -65,10 +67,10 @@ function displayTable(business){
         let td_phoneNumber = document.createElement('td');
         let td_weburl = document.createElement('td');
 
-        td_name.textContent = `${biz.name}`;
-        td_address.textContent = `${biz.address}`;
-        td_phoneNumber.textContent = `${biz.phoneNumber}`;
-        td_weburl.textContent = `${biz.weburl}`;
+        td_name.textContent = biz.name;
+        td_address.textContent = `Address: ${biz.address}`;
+        td_phoneNumber.textContent = `Phone Number: ${biz.phoneNumber}`;
+        td_weburl.textContent = `Website: ${biz.weburl}`;
 
         tr.appendChild(td_name);
         tr.appendChild(td_address);
