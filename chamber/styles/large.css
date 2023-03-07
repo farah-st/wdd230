@@ -114,9 +114,6 @@
     #weather h4{
         font-size: 25px;
     }
-    #join{
-        text-align: center;
-    }
     #join p{
         background-color: #86C8BC;
         border-radius: 10px;
@@ -144,6 +141,7 @@
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 13px;
+        text-align: center;
     }
     main div:nth-child(5){
         /* .spotlight{ */

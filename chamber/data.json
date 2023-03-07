@@ -5,55 +5,63 @@
         "address": "Av. De los Heroes 123 E",
         "phoneNumber": "418-182-7175",
         "weburl": "http://www.pollofeliz.com/",
-        "imageurl": "http://www.pollofeliz.com/USA/img/pollo-feliz-logo.png"
+        "imageurl": "images/pollo-feliz-logo.png"
       },
        {
         "name": "Hotel Galería El Refugio",
         "address": "Calle Guerrero #7-2",
         "phoneNumber": "418-182-2778",
-        "weburl": "https://www.facebook.com/ElRefugioHG/"
+        "weburl": "https://www.facebook.com/ElRefugioHG/",
+        "imageurl": "images/elRefugio.jpg"
       },
        {
         "name": "Cuna de Tierra",
         "address": " San Luis de la Paz Km.11.5, Rancho el Rosillo",
         "phoneNumber": "415-152-6060   ",
-        "weburl": "https://www.cunadetierra.com/"
+        "weburl": "https://www.cunadetierra.com/",
+        "imageurl": "images/cunadetierra.jpg"
       },
        {
         "name": "Casita Linda", 
         "address": "Zacateros 29-E, Centro,",
         "phoneNumber": "415-152-0271",
-        "weburl": "https://casitalinda.org/"
+        "weburl": "https://casitalinda.org/",
+        "imageurl": "images/casitalinda_finallogo_logo-color-claro.png"
       },
        {
         "name": "Antares",
         "address": "Rayon #60",
         "phoneNumber": "419-198-0381",
-        "weburl": "https://www.antarespasteleria.com/index.html"
+        "weburl": "https://www.antarespasteleria.com/index.html",
+        "imageurl": "images/antares.png"
        },
        {
         "name": "El Fruty Restaurante & Cafe",
         "address": "Jardin Hidalgo No.2",
         "phoneNumber": "418-152-2319",
-        "weburl": "http://elfruty.com.mx/"
+        "weburl": "http://elfruty.com.mx/",
+        "imageurl": "images/elfruty.jpg"
        },
        {
         "name": "Mi Pueblo Adorado",
         "address": "Calle Coahuila #28",
         "phoneNumber": "418-177-6905",
-        "weburl": "https://mipueloadorado.com"
+        "weburl": "https://mipueloadorado.com",
+        "imageurl": "images/mi-pueblo-adorado.jpg"
        },
        {
         "name": "Élate: rollos de helado",
         "address": "Smith",
         "phoneNumber": "418-129-4131",
-        "weburl": "https://www.facebook.com/profile.php?id=100049647315695"
+        "weburl": "https://www.facebook.com/profile.php?id=100049647315695",
+        "imageurl": "images/elate.jpg"
        },
       {
         "name": "Galeria San Francisco",
         "address": "N#2 de 138",
         "phoneNumber": "415-152-6699",
-        "weburl": "https://www.facebook.com/galeriasanfranciscosma/"
+        "weburl": "https://www.facebook.com/galeriasanfranciscosma/",
+        "imageurl": "images/galeria-san-fco.jpg"
       }
     ]
   }

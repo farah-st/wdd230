@@ -331,7 +331,7 @@ input[type="submit"]:hover{
 }
 #view{
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
   padding-top: 30px;
 }
 table{
@@ -345,8 +345,7 @@ table{
 }
 td{
   padding: 5px;
-  /* display: block;  */
-  display: table-cell;/*media query use table-cell*/
+  display: table-cell;
 }
 tr:nth-of-type(even){
   background-color: #86C8BC;
