@@ -3,7 +3,7 @@ const url = 'https://farah-st.github.io/wdd230/chamber/data.json';
 async function getBiz(){
     const response = await fetch(url);
     const data = await response.json();
-    
+    console.table(data.business); 
     cards();
 
     document.body.querySelector('#cards').addEventListener('click', cards);
@@ -33,13 +33,13 @@ const displayBusiness = (business) => {
     
     business.forEach((biz)=> {
         let card = document.createElement("section");
-        let bName = document.createElement('p');
+        let bName = document.createElement('h1');
         let address = document.createElement('p');
         let phonenumber = document.createElement('p');
         let web = document.createElement('h4');
         let portrait = document.createElement('img');
 
-        bName.textContent = `Business name: ${biz.name}`;   
+        bName.textContent = biz.name;   
         address.textContent = `Address: ${biz.address}`; 
         phonenumber.textContent = `Phone Number: ${biz.phoneNumber}`;
         web.textContent = `${biz.weburl}`;
@@ -48,8 +48,11 @@ const displayBusiness = (business) => {
         portrait.setAttribute('alt', `${biz.name} logo`);
         portrait.setAttribute('loading', 'lazy');
 
+
+
         // card.appendChild(portrait);
         card.appendChild(bName);
+        card.appendChild(portrait);
         card.appendChild(address);
         card.appendChild(phonenumber);
         card.appendChild(web);

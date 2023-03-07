@@ -310,10 +310,11 @@ input[type="submit"]:hover{
   width: 400px;
   margin: 20px;
 }
-/* .cards img{
+.cards img{
   width: 90%;
   box-shadow: 5px 10px 8px 5px #888;
-} */
+  padding: 5px;
+}
 /* h1, h2{
   text-align: center;
   color: lightcoral;
