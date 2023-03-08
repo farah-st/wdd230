@@ -8,12 +8,10 @@
         margin-left: 2vw;
         border-left:  1px solid rgba(0,0,0,0.3)
     }
-
     nav ul li a{
         border: none;
         border-right:  1px solid rgba(0,0,0,0.3);
     }
-
     header{
         display: grid;
         grid-template-columns: 0.5fr 1fr 3fr 0.5fr;
@@ -202,7 +200,6 @@
     #spotlight-3 p{
         margin: 5px;
     }
-    
     .first-footer{
         display:grid;
         grid-template-columns: 0.5fr 2fr 1.5fr;
@@ -286,7 +283,7 @@
       }
 
       /* directory */
-  .directory{
+    .directory{
     max-width: 100%;
   }
 }
