@@ -226,14 +226,14 @@ input[type="submit"]:hover{
   text-decoration: none;
 }
 .join_main{
-  background-color: #86C8BC;
+  background-color: #CEEDC7;
   padding: 10px;
 }
 #membership{
   margin-top:100px;
 }
 #bronze, #gold{
-  background-color: #CEEDC7;
+  background-color: #86C8BC;
 }
 #silver{
   background-color: #FFF6BD;
