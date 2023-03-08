@@ -312,6 +312,11 @@ tr:nth-of-type(even){
 tr:nth-of-type(odd){
   background-color: #CEEDC7;
 }
+/* #weather_icon{
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+} */
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -534,6 +539,10 @@ tr:nth-of-type(odd){
   /* directory */
   td{
     display: block;
+  }
+
+  #weather_icon{
+    width: 40%;
   }
 
 }

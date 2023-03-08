@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="icon" href="favicon.ico">
   <script defer src ="scripts/main.js"></script>
-  <script defer src ="scripts/windchill.js"></script>
+  <!-- <script defer src ="scripts/windchill.js"></script> -->
+  <script defer src ="scripts/weather.js"></script>
+  
   <title> 
     Chambers Home Page Build
   </title>
@@ -81,12 +83,13 @@
       </div>
       <div class= "grid-item" id="weather">
         <h1>Weather</h1>
-        <img src="images/weather.png" alt="weather image">
-        <p>Temperature: <span id="temperature">23</span>°C</p>
-        <p>Wind Speed: <span id="windSpeed">9</span> mph</p>
+        <!-- <img src="images/weather.png" alt="weather image"> -->
+        <img id="weather_icon" src="" alt=""/>
+        <p id="temp">Temperature: <span id='t'></span>°F</p>
+        <p>WindSpeed: <span id='ws'></span> mph</p>
         <p>Wind Chill: <span id="windChill"></span></p>
         <hr>
-        <h4> Mostly sunny</h4>
+        <h4 id='condition'></h4>
       </div>
       <div class= "grid-item" id="newR">
         <h1>News Release</h1>

@@ -285,5 +285,13 @@
       /* directory */
     .directory{
     max-width: 100%;
-  }
+    }
+
+    #weather_icon{
+        width: 100%;
+        padding: 5px;
+        margin: 10px;
+      }
+
+    
 }
