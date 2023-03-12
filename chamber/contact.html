@@ -59,7 +59,21 @@
     </div>
   </header>
   <main class="contact_main">
-    <h1> Thank you for joining our chambers! You should receive an email shortly.</h1>
+    <h1 class="h1-contact"> Contact Us:</h1>
+    <form method="get" action="thankyou.html">
+      <label for="fname">Name: </label>
+      <input id="fname" name="firstname" required>
+      <label for="email"> Email:</label>
+      <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+      <label for="phone"> Phone Number: </label>
+      <input id="phone" name="phone" type="tel" placeholder="123-123-1234" required>
+      <label for="message"> Message:</label>
+      <textarea id="message"></textarea>
+      <input id="date" type="hidden" name="todaydate">
+      <!-- <a class="ref" href="thankyou.html"> -->
+      <input id= "button" type="submit" value="Submit">
+      <!-- </a> -->
+      </form>
   </main>
   <footer>
     <div class="first-footer">

@@ -60,6 +60,9 @@ nav ul li a:hover{
   background-color:#FFD4B2;
   color: white;
 }
+.summary h2{
+  display: none;
+}
 #date1{
   background-color:#FFD4B2;
   color: black;
@@ -317,6 +320,30 @@ tr:nth-of-type(odd){
   padding: 5px;
   margin: 10px;
 } */
+/* contact */
+.contact_main h1
+{
+  text-align: center;
+}
+.contact_main form{
+  margin: 0 auto; 
+  width:350px;
+  /* text-align: center; */
+  border-radius: 10px;
+
+}
+.contact_main #button{
+  margin: 0 auto; 
+  width:150px;
+  height: 50px;
+  background-color: #CEEDC7;
+}
+.contact_main #button:hover{
+  width: 50%;
+}
+.contact_main{
+  background-color: #86C8BC;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
