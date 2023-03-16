@@ -55,7 +55,7 @@
         line-height: 15px;
     }
     main{
-        max-width: 800px;
+        max-width: 1000px;
         margin: auto;
         padding: 10px;
     }
@@ -266,9 +266,9 @@
     .largeImg{
         width: 100%;
     }
-    .social-media{
+    /* .social-media{
         display: none;
-    }
+    } */
 
     /*Join  page*/
     .join_main{
