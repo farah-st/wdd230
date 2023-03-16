@@ -109,25 +109,6 @@ img.logo{
   -webkit-background-clip: text;
   margin: 0;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
 #newR p{
   margin: 20px;
   background-color:#86C8BC;
@@ -364,6 +345,9 @@ tr:nth-of-type(odd){
 .contact_main{
   background-color: #86C8BC;
 }
+p{
+  font-size: 20px;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -376,7 +360,7 @@ tr:nth-of-type(odd){
     line-height: 1px;
   }
   .second-grid p{
-    font-size: 15px;
+    font-size: 25px;
   }
   .grid{
     display:grid;
@@ -441,7 +425,7 @@ tr:nth-of-type(odd){
   #weather{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   #weather h1{
     grid-column: 1/3;

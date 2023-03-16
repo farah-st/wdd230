@@ -269,6 +269,9 @@
     /* .social-media{
         display: none;
     } */
+    #join{
+        padding-top: 50px;
+    }
 
     /*Join  page*/
     .join_main{
