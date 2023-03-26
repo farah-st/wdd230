@@ -1,0 +1,25 @@
+@media only screen and (min-width: 700px){
+      #grid-personas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        grid-gap: 20px;
+    }
+    nav ul {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      
+    }
+    
+    nav a {
+      font-size: 1rem;
+    }
+    
+    nav a:hover {
+      color: #f5f0bb;
+    }
+    
+    footer{
+      font-size: 20px;
+    }
+    }
