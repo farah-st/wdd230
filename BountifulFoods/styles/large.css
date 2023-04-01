@@ -85,12 +85,17 @@
         padding-bottom: 50px;
     }
 
-    /* Index */
-    #weather-section {
-        display: grid;
+   /* Index */
+   .weather-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .index h1{
         margin: 0;
+        font-size: 50px;
     }
+    .weather, .weather2{
+        background-color: #FFEBB4;
+    }
+    
+
 }

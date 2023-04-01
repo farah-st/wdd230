@@ -145,7 +145,31 @@ iframe{
 #weather-grid img{
   max-width: 100%;
 }
-
+.last-build{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.build{
+  background-color: #FFEBB4;
+}
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+.build button:hover{
+  background-color: #FFBFA9;
+}
+.weather-grid img{
+  max-width: 50%;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -233,6 +257,8 @@ iframe{
   .weather, .weather3{
     background-color: #FFEBB4;
   }
-  
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
 
 }
