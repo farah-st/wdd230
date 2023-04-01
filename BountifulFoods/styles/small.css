@@ -99,6 +99,9 @@ p, ul{
 main{
   background-color: #FFBFA9;
 }
+h1{
+  background-color: #FFACAC;
+}
 /* about us page */
 .about h1{
   text-align: center;
@@ -128,8 +131,10 @@ main{
   grid-row: 2;
   padding-top: 10px;
 }
-#h1A{
-  background-color: #FFACAC;
+
+iframe{
+  display: block;
+  margin: auto;
 }
 @media screen and (max-width: 550.9px){
   header{
@@ -196,7 +201,7 @@ main{
   
   /* about us page */
   p{
-    font-size: 17px;
+    font-size: 15px;
     margin: 0 0 10px 0;
   }
   #firstP{
