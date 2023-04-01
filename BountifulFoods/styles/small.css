@@ -101,10 +101,11 @@ main{
 }
 h1{
   background-color: #FFACAC;
+  text-align: center;
 }
 /* about us page */
 .about h1{
-  text-align: center;
+  
   padding: 5px;
   margin: 0;
 }
@@ -131,11 +132,20 @@ h1{
   grid-row: 2;
   padding-top: 10px;
 }
-
 iframe{
   display: block;
   margin: auto;
 }
+
+/* index */
+.weather-grid{
+  display: grid;
+  text-align: center;
+}
+#weather-grid img{
+  max-width: 100%;
+}
+
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -207,7 +217,22 @@ iframe{
   #firstP{
   padding: 10px;
   margin-bottom: 10px;
-}
+  }
+
+/* Index page */
+  .index h1{
+    font-size: 25px;
+    margin: 0;
+  }
+  .index img{
+    margin: 0;
+  }
+  .weather-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .weather, .weather3{
+    background-color: #FFEBB4;
+  }
   
 
 }

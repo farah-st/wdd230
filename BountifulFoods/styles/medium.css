@@ -48,5 +48,17 @@
     .photoA{
         margin: 0;
     }
+
+    /* Index */
+    .weather-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .index h1{
+        margin: 0;
+    }
+    .weather, .weather2{
+        background-color: #FFEBB4;
+    }
+    
     
 }

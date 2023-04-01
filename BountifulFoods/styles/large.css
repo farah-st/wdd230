@@ -67,7 +67,12 @@
         margin-top: 0px;
         padding: 5px;
     }
-
+    /* main */
+    main{
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+    }
     /* about us */
     .about p{
         font-size: 30px;
@@ -78,5 +83,14 @@
     #firstP, #secondP{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    /* Index */
+    #weather-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .index h1{
+        margin: 0;
     }
 }
