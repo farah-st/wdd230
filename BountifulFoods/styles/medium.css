@@ -36,4 +36,20 @@
         margin-top: 0px;
         padding: 5px;
     }
+
+    /* about us */
+    #firstP, #secondP{
+        font-size: 20px;
+      }
+    #firstP{
+        padding: 30px;
+        margin: 0;
+    }
+    .photoA{
+        margin: 0;
+    }
+    iframe{
+        display: block;
+        margin: auto;
+    }
 }

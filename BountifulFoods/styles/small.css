@@ -69,7 +69,9 @@ header {
   /* background: #E60023; */
   color: white;
 }
-
+img, iframe{
+  max-width: 100%;
+}
 /* Footer */
 footer{
   background-color: #C4C2C2;
@@ -93,6 +95,10 @@ h1, h3{
 p, ul{
   font-family: 'Source Sans Pro', sans-serif;
 }
+/* main */
+main{
+  background-color: #FFBFA9;
+}
 /* about us page */
 .about h1{
   text-align: center;
@@ -110,8 +116,8 @@ p, ul{
 }
 #firstP{
   background-color: #FFEBB4;
-  padding: 10px;
-  margin-bottom: 10px;
+  /* padding: 10px;
+  margin-bottom: 10px; */
 }
 .photoB{
   grid-column: 2;
@@ -121,6 +127,9 @@ p, ul{
   grid-column: 1;
   grid-row: 2;
   padding-top: 10px;
+}
+#h1A{
+  background-color: #FFACAC;
 }
 @media screen and (max-width: 550.9px){
   header{
@@ -177,9 +186,6 @@ p, ul{
   p{
     font-size: 20px;
   }
-  main{
-    background-color: #FFBFA9;
-  }
   img{
     max-width: 100%;
   }
@@ -193,6 +199,10 @@ p, ul{
     font-size: 17px;
     margin: 0 0 10px 0;
   }
+  #firstP{
+  padding: 10px;
+  margin-bottom: 10px;
+}
   
 
 }
