@@ -1,0 +1,125 @@
+header {
+    background-color: #C4C2C2;
+    /* color: #625e5e;    */
+    font-family: 'Source Sans Pro', sans-serif;
+   /* position: fixed;
+   z-index: 1; */
+  }
+  nav{
+    background-color: #C4C2C2;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #625e5e;
+  }
+  nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    align-self: center;
+  }
+  nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+  }
+  nav ul li a{
+    display: block; 
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    border: 10px;
+  }
+  nav ul.open{
+    display: block;
+  }
+  nav ul li a:hover{
+    background-color:#C4C2C2;;
+    color: white;
+  }
+  img.logo{
+    max-width: 100px;
+  }
+  /* Social Media */
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+  background: rgb(214, 41, 118);
+  color: white;
+}
+
+.fa-pinterest {
+  background: #E60023;
+  color: white;
+}
+
+
+  /* Footer */
+  footer{
+    background-color: #C4C2C2;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+  }
+  footer img{
+    max-width: 100px;
+  }
+  .last-footer{
+    background-color:lightgrey;
+    color: black;
+  }
+  @media screen and (max-width: 550.9px){
+    header{
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr 1fr;
+      }
+      .second-grid{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        text-align: right;
+        line-height: 1px;
+      }
+      .second-grid p{
+        font-size: 25px;
+      }
+/* Footer */
+      footer{
+        display: block;
+        text-align: center;
+      }
+      footer h3{
+       margin: 0px;
+      }
+      footer p{
+        margin: 5px;
+      }
+      .last-footer h4{
+        margin: 0px;
+      }
+      .adress{
+        font-size: 15px;
+        line-height: 11px;
+      }
+      .last-footer p:nth-child(1){
+        padding-top: 5px;
+      }
+      .last-footer p:nth-child(4){
+        padding-bottom:5px;
+      }
+
+  }
