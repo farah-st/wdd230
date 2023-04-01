@@ -13,17 +13,9 @@
         font-size: 30px;
     }
     /* Social Media */
-    .fa {
-        padding: 5px;
-        font-size: 20px;
-        width: 20px;
-        border-radius: 70%;
+    .fa{
+        padding: 2px;
       }
-      .social-media{
-        display: block;
-        text-align: center;
-      }
-
     /* Footer */
     .first-footer{
         display: grid;
