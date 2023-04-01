@@ -83,6 +83,10 @@ header {
     background-color:lightgrey;
     color: black;
   }
+  .last-footer-medium{
+    background-color:lightgrey;
+    color: black;
+  }
   @media screen and (max-width: 550.9px){
     header{
         display: grid;
@@ -120,6 +124,9 @@ header {
       }
       .last-footer p:nth-child(4){
         padding-bottom:5px;
+      }
+      .last-footer-medium{
+        display: none;
       }
 
   }
