@@ -80,11 +80,11 @@ footer img{
   max-width: 100px;
 }
 .last-footer{
-  background-color:lightgrey;
+  background-color:#FFACAC;
   color: black;
 }
 .last-footer-medium{
-  background-color:lightgrey;
+  background-color:#FFACAC;
   color: black;
 }
 h1, h3{
@@ -102,7 +102,26 @@ p, ul{
 .about p{
   text-align: center;
 }
-
+.grid-contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 0;
+}
+#firstP{
+  background-color: #FFEBB4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.photoB{
+  grid-column: 2;
+  grid-row: 2;
+}
+#secondP{
+  grid-column: 1;
+  grid-row: 2;
+  padding-top: 10px;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -115,10 +134,12 @@ p, ul{
     line-height: 1px;
   }
   .second-grid p{
-    font-size: 20px;
+    /* font-size: 20px; */
+    max-width: 100%;
   }
   .second-grid h3{
-    font-size: 25px;
+    /* font-size: 20px; */
+    max-width: 100%;
   }
   /* social media */
   .fa{
@@ -151,7 +172,7 @@ p, ul{
   .last-footer-medium{
     display: none;
   }
-
+  
   /* main  */
   p{
     font-size: 20px;
@@ -167,4 +188,11 @@ p, ul{
     height: 50%;
   }
   
+  /* about us page */
+  p{
+    font-size: 17px;
+    margin: 0 0 10px 0;
+  }
+  
+
 }
