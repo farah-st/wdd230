@@ -176,6 +176,14 @@ iframe{
 .number{
   background-color: #FFBFA9;
 }
+.explanation{
+  text-align: center;
+  padding: 5px;
+  background-color: #FFBFA9;
+}
+.index p{
+  text-align: center;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -275,5 +283,6 @@ iframe{
   .button-52 {
     padding: 13px 50px 13px;
   }
+  
 
 }

@@ -62,6 +62,13 @@
     .weather, .weather2{
         background-color: #FFEBB4;
     }
-    
+    .weather1, .weather3{
+        border: 5px solid #FFBFA9;
+    }
+    .explanation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
     
 }
