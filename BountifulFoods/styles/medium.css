@@ -12,6 +12,9 @@
     .header p{
         font-size: 30px;
     }
+    header #title{
+        grid-column: 1/5;
+    }
     /* Social Media */
     .fa{
         padding: 2px;

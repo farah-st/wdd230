@@ -33,6 +33,9 @@
         grid-column: 4;
         grid-row: 1;
     }
+    header #title{
+        grid-column: 1/5;
+    }
     header #date1{
         grid-column: 1/5;
         grid-row: 2;
@@ -75,10 +78,10 @@
     }
     /* about us */
     .about p{
-        font-size: 30px;
+        font-size: 20px;
     }
     .about h1{
-        font-size: 50px;
+        font-size: 40px;
     }
     #firstP, #secondP{
         padding-top: 50px;
@@ -94,8 +97,12 @@
         font-size: 50px;
     }
     .weather, .weather2{
-        background-color: #FFEBB4;
+        /* background-color: #FFEBB4; */
+        border: 5px solid #ffebb4;
     }
     
+    .weather1, .weather3{
+        border: 5px solid #FFBFA9;
+    }
 
 }

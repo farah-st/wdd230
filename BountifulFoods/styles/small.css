@@ -96,16 +96,15 @@ p, ul{
   font-family: 'Source Sans Pro', sans-serif;
 }
 /* main */
-main{
+/* main{
   background-color: #FFBFA9;
-}
+} */
 h1{
   background-color: #FFACAC;
   text-align: center;
 }
 /* about us page */
 .about h1{
-  
   padding: 5px;
   margin: 0;
 }
@@ -120,6 +119,7 @@ h1{
 }
 #firstP{
   background-color: #FFEBB4;
+  border: 5px solid #FFBFA9;
   /* padding: 10px;
   margin-bottom: 10px; */
 }
@@ -130,7 +130,10 @@ h1{
 #secondP{
   grid-column: 1;
   grid-row: 2;
-  padding-top: 10px;
+  padding: 10px;
+  background-color: #FFBFA9;
+  border: 5px solid #FFEBB4;
+  
 }
 iframe{
   display: block;
@@ -170,6 +173,9 @@ iframe{
 .weather-grid img{
   max-width: 50%;
 }
+.number{
+  background-color: #FFBFA9;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -193,6 +199,12 @@ iframe{
   .fa{
     padding: 1px;
   }
+  header #title{
+    grid-column: 1/5;
+}
+#title{
+  font-size: 25px;
+}
 /* Footer */
   footer{
     display: block;
@@ -256,6 +268,9 @@ iframe{
   }
   .weather, .weather3{
     background-color: #FFEBB4;
+  }
+  .weather1, .weather2{
+    border: 5px solid #FFBFA9;
   }
   .button-52 {
     padding: 13px 50px 13px;
