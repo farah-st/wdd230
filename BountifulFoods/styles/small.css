@@ -195,7 +195,9 @@ iframe{
 /* fresh */
 .freshDiv{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+}
+#table h1{
+  margin: 0;
 }
 @media screen and (max-width: 550.9px){
   header{
@@ -303,6 +305,12 @@ iframe{
   /* fresh */
   #freshImg{
     display: none;
+  }
+  .fresh{
+    grid-template-columns:  1fr;
+  }
+  .fresh h1{
+    font-size: 20px;
   }
 
 }

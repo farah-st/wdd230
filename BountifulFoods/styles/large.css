@@ -116,5 +116,10 @@
     .facts p{
         font-size: 20px;
     }
+
+    /* fresh */
+    .freshDiv{
+        grid-template-columns: 1fr 1fr;
+    }
     
 }
