@@ -89,20 +89,19 @@ footer img{
   background-color:#FFACAC;
   color: black;
 }
-h1, h3{
-  font-family: 'Playfair Display', serif;
+h1, h2 h3, h4, h5{
+  font-family: Verdana, sans-serif;
 }
 p, ul{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Enriqueta', serif;
 }
+
 /* main */
-/* main{
-  background-color: #FFBFA9;
-} */
 h1{
   background-color: #FFACAC;
   text-align: center;
 }
+
 /* about us page */
 .about h1{
   padding: 5px;
@@ -163,9 +162,12 @@ iframe{
   padding: 13px 20px 13px;
   outline: 0;
   border: 1px solid black;
-  cursor: pointer;
-  position: relative;
   background-color: rgba(0, 0, 0, 0);
+}
+.build{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
 }
 .build button:hover{
   background-color: #FFBFA9;
@@ -180,9 +182,20 @@ iframe{
   text-align: center;
   padding: 5px;
   background-color: #FFBFA9;
+  border: 10px solid #FFEBB4;
 }
 .index p{
   text-align: center;
+  padding: 10px;
+}
+.facts{
+  border: 10px solid #FFEBB4;
+}
+
+/* fresh */
+.freshDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 550.9px){
   header{
@@ -283,6 +296,13 @@ iframe{
   .button-52 {
     padding: 13px 50px 13px;
   }
+  .explanation iframe{
+    display: none;
+  }
   
+  /* fresh */
+  #freshImg{
+    display: none;
+  }
 
 }

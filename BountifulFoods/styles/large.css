@@ -70,12 +70,7 @@
         margin-top: 0px;
         padding: 5px;
     }
-    /* main */
-    main{
-        max-width: 1000px;
-        margin: auto;
-        padding: 10px;
-    }
+
     /* about us */
     .about p{
         font-size: 20px;
@@ -87,6 +82,12 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .about{
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+        background-color: #FFBFA9;
+    }
 
    /* Index */
    .weather-grid {
@@ -94,7 +95,8 @@
     }
     .index h1{
         margin: 0;
-        font-size: 50px;
+        font-size: 30px;
+        padding: 10px;
     }
     .weather, .weather2{
         /* background-color: #FFEBB4; */
@@ -107,6 +109,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+    }
+    .index{
+        text-align: center;
+    }
+    .facts p{
+        font-size: 20px;
     }
     
 }
