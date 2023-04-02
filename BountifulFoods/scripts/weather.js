@@ -1,4 +1,4 @@
-const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/dolores%20hidalgo?unitGroup=metric&key=C555DG7C296D2Y7XGB2ZBBH3D&contentType=json"
+const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/carlsbad%20ca?unitGroup=us&key=C555DG7C296D2Y7XGB2ZBBH3D&contentType=json"
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const data = await response.json();

@@ -190,6 +190,10 @@ iframe{
 .facts{
   border: 10px solid #FFEBB4;
 }
+.number p{
+  font-size: 20px;
+  background-color: white;
+}
 
 /* fresh */
 .freshDiv{
