@@ -121,5 +121,7 @@
     .freshDiv{
         grid-template-columns: 1fr 1fr;
     }
-    
+    form{
+        width:550px;
+    }  
 }

@@ -75,5 +75,11 @@
     .freshDiv{
         grid-template-columns: 1fr 1fr;
     }
+    form{
+        width:350px;
+    }
+    #table h1{
+        font-size: 20px
+    }
     
 }

@@ -47,10 +47,164 @@
         <main class="fresh">
             <div class="freshDiv">
                 <div id="freshImg">
-                    <img src="images/How-to-Make-Smoothie-taller.jpg" alt="slider 1 image with smoothies">
+                    <picture class="photoA">
+                        <source media="(max-width: 900px)" srcset="images/How-to-Make-Smoothie-2.jpg">
+                        <img src="images/How-to-Make-Smoothie-taller.jpg" alt="farmers marker">
+                    </picture>
                 </div>
                 <div id="table">
                     <h1>Create your Smoothie:</h1>
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                            <label for="fname">First name: </label>
+                            <input id="fname" name="firstname" required>
+                            <label for="email"> Email:</label>
+                            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+                            <label for="phone"> Phone Number: </label>
+                            <input id="phone" name="phone" type="tel" placeholder="123-123-1234" required>
+                        </fieldset>
+                        <fieldset>
+                            <legend> Choose three fruits</legend>
+                            <label for="fruits" id="fruits">Fruit #1:</label>
+                            <select name="fruits" id="fruits">
+                                <option value=0>Apple</option>
+                                <option value=1>Apricot</option>
+                                <option value=2>Avocado</option>
+                                <option value=3>Banana</option>
+                                <option value=4>Blackberry</option>
+                                <option value=5>Apricot</option>
+                                <option value=6>Cherry</option>
+                                <option value=7>Cranberry</option>
+                                <option value=8>Dragonfruit</option>
+                                <option value=9>Durian</option>
+                                <option value=10>Feijoa</option>
+                                <option value=11>Fig</option>
+                                <option value=12>Gooseberry</option>
+                                <option value=13>Grape</option>
+                                <option value=14>GreenApple</option>
+                                <option value=15>Guava</option>
+                                <option value=16>Kiwi</option>
+                                <option value=17>Kiwifruit</option>
+                                <option value=18>Lemon</option>
+                                <option value=19>Lime</option>
+                                <option value=20>Lingonberry</option>
+                                <option value=21>Lychee</option>
+                                <option value=22>Mango</option>
+                                <option value=23>Melon</option>
+                                <option value=24>Morus</option>
+                                <option value=25>Orange</option>
+                                <option value=26>Papaya</option>
+                                <option value=27>Passionfruit</option>
+                                <option value=28>Peach</option>
+                                <option value=29>Pear</option>
+                                <option value=30>Persimmon</option>
+                                <option value=31>Pineapple</option>
+                                <option value=32>Pitahaya</option>
+                                <option value=33>Plum</option>
+                                <option value=34>Pomegranate</option>
+                                <option value=35>Raspberry</option>
+                                <option value=36>Strawberry</option>
+                                <option value=37>Tangerine</option>
+                                <option value=38>Tomato</option>
+                                <option value=39>Watermelon</option> 
+                            </select>
+                            <hr>
+                            <label for="fruits" id="fruits">Fruit #2:</label>
+                            <select name="fruits2" id="fruits2">
+                                <option value=0>Apple</option>
+                                <option value=1>Apricot</option>
+                                <option value=2>Avocado</option>
+                                <option value=3>Banana</option>
+                                <option value=4>Blackberry</option>
+                                <option value=5>Apricot</option>
+                                <option value=6>Cherry</option>
+                                <option value=7>Cranberry</option>
+                                <option value=8>Dragonfruit</option>
+                                <option value=9>Durian</option>
+                                <option value=10>Feijoa</option>
+                                <option value=11>Fig</option>
+                                <option value=12>Gooseberry</option>
+                                <option value=13>Grape</option>
+                                <option value=14>GreenApple</option>
+                                <option value=15>Guava</option>
+                                <option value=16>Kiwi</option>
+                                <option value=17>Kiwifruit</option>
+                                <option value=18>Lemon</option>
+                                <option value=19>Lime</option>
+                                <option value=20>Lingonberry</option>
+                                <option value=21>Lychee</option>
+                                <option value=22>Mango</option>
+                                <option value=23>Melon</option>
+                                <option value=24>Morus</option>
+                                <option value=25>Orange</option>
+                                <option value=26>Papaya</option>
+                                <option value=27>Passionfruit</option>
+                                <option value=28>Peach</option>
+                                <option value=29>Pear</option>
+                                <option value=30>Persimmon</option>
+                                <option value=31>Pineapple</option>
+                                <option value=32>Pitahaya</option>
+                                <option value=33>Plum</option>
+                                <option value=34>Pomegranate</option>
+                                <option value=35>Raspberry</option>
+                                <option value=36>Strawberry</option>
+                                <option value=37>Tangerine</option>
+                                <option value=38>Tomato</option>
+                                <option value=39>Watermelon</option>
+                            </select>
+                            <hr>
+                            <label for="fruits" id="fruits">Fruit #3:</label>
+                            <select name="fruits3" id="fruits3">
+                                <option value=0>Apple</option>
+                                <option value=1>Apricot</option>
+                                <option value=2>Avocado</option>
+                                <option value=3>Banana</option>
+                                <option value=4>Blackberry</option>
+                                <option value=5>Apricot</option>
+                                <option value=6>Cherry</option>
+                                <option value=7>Cranberry</option>
+                                <option value=8>Dragonfruit</option>
+                                <option value=9>Durian</option>
+                                <option value=10>Feijoa</option>
+                                <option value=11>Fig</option>
+                                <option value=12>Gooseberry</option>
+                                <option value=13>Grape</option>
+                                <option value=14>GreenApple</option>
+                                <option value=15>Guava</option>
+                                <option value=16>Kiwi</option>
+                                <option value=17>Kiwifruit</option>
+                                <option value=18>Lemon</option>
+                                <option value=19>Lime</option>
+                                <option value=20>Lingonberry</option>
+                                <option value=21>Lychee</option>
+                                <option value=22>Mango</option>
+                                <option value=23>Melon</option>
+                                <option value=24>Morus</option>
+                                <option value=25>Orange</option>
+                                <option value=26>Papaya</option>
+                                <option value=27>Passionfruit</option>
+                                <option value=28>Peach</option>
+                                <option value=29>Pear</option>
+                                <option value=30>Persimmon</option>
+                                <option value=31>Pineapple</option>
+                                <option value=32>Pitahaya</option>
+                                <option value=33>Plum</option>
+                                <option value=34>Pomegranate</option>
+                                <option value=35>Raspberry</option>
+                                <option value=36>Strawberry</option>
+                                <option value=37>Tangerine</option>
+                                <option value=38>Tomato</option>
+                                <option value=39>Watermelon</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Additional Instructions</legend>
+                            <textarea id="message"></textarea>
+                            <input id="date" type="hidden" name="todaydate">
+                            <input id= "button" type="submit" value="Submit">
+                        </fieldset>
+                    </form>
                 </div>
             </div>
 

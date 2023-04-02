@@ -52,11 +52,9 @@ header {
     margin: 5px 2px;
     border-radius: 50%;
   }
-  
   .fa:hover {
       color: black;
   }
-  
   .fa-facebook {
     /* background: #3B5998; */
     color: white;
@@ -72,6 +70,7 @@ header {
 img, iframe{
   max-width: 100%;
 }
+
 /* Footer */
 footer{
   background-color: #C4C2C2;
@@ -194,11 +193,69 @@ iframe{
 
 /* fresh */
 .freshDiv{
+  background-color: #FFBFA9;
   display: grid;
+  align-items: center;
+}
+fieldset{
+  background-color: white;
+  border: 10px solid #FFEBB4;
+  text-align: left;
+}
+form{
+  display: block;
+  text-align: center;
+  /* width: 90%; */
+  margin: 0 auto;
+}
+legend{
+  background-color: #FFEBB4;
+  /* border-radius: 5px; */
+  /* text-transform: uppercase; */
+  padding: 10px;
+  text-align: center;
+}
+form input{
+  display: block;
+  font-size: 15px;
+  padding: 10px 0 10px 10px;
+  max-width: 100%;
 }
 #table h1{
   margin: 0;
 }
+#button{
+  width: 100%;
+  background-color: #FFACAC;
+}
+#button:hover{
+  background-color: #FFBFA9;
+}
+hr{
+  border: none;
+}
+label, input{
+  display: block;
+  font-size: 15px;
+}
+form input:required{
+  border-left:red solid 6px;
+}
+form input:required:valid{
+  border-left:green solid 6px;
+}
+textarea{
+  height: 150px;
+}
+input, textarea{
+  margin-bottom: 20px;
+  width:100%;
+  max-width: 500px;
+}
+#table{
+  text-align: center;
+}
+
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
@@ -311,6 +368,9 @@ iframe{
   }
   .fresh h1{
     font-size: 20px;
+  }
+  form{
+    width:350px;
   }
 
 }
