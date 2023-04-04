@@ -1,4 +1,4 @@
-const images = document.body.querySelectorAll('[data-src');    //Body or no body?
+const images = document.body.querySelectorAll('data-src');    //Body or no body?
 
 const options = {threshold: .5,
                 rootMargin: '0px 0px 100px 0px'};
