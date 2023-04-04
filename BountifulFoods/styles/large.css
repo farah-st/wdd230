@@ -99,11 +99,12 @@
         padding: 10px;
     }
     .weather, .weather2{
-        /* background-color: #FFEBB4; */
-        border: 5px solid #ffebb4;
+        background-color: #FFEBB4;
+        /* border: 5px solid #ffebb4; */
     }
     .weather1, .weather3{
-        border: 5px solid #FFBFA9;
+        /* border: 5px solid #FFBFA9; */
+        background-color: #FFBFA9;
     }
     .explanation{
         display: grid;

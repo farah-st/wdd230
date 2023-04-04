@@ -323,6 +323,7 @@ input, textarea{
   }
   img{
     max-width: 100%;
+    /* border: 1px solid black; */
   }
   iframe{
     max-width: 100%;
