@@ -11,6 +11,9 @@ const getWeather = async () => {
     document.querySelector('#weather_icon').src = image;
     document.querySelector('#weather_icon').alt= data.currentConditions.conditions + ' icon';
 
+    document.querySelector('#date1').textContent = t.toFixed(1);
+
+
   };
 getWeather();
 
