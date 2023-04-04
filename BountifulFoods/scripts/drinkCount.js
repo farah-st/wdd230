@@ -9,7 +9,7 @@ if (count == null){
 }
 localStorage.setItem('drinks-counted', count);
 drink_count.innerHTML = localStorage.getItem('drinks-counted');
-
+// it was equal to == 1
 if (localStorage.getItem('drinks-counted') == 0){
     drink_count.innerHTML += ` drink`;
 }
