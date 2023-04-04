@@ -1,12 +1,25 @@
-const counter = document.querySelector("#totalJuice");
+let drink_count = document.querySelector('#drink-count');
 
-let exist = localStorage.getItem("drinks");
+const order_button = document.querySelector("#button");
 
-if (exist) {
-  drinkList = JSON.parse(localStorage.getItem("drinks"));
-  counter.textContent = drinkList.length;
-} 
+let count = localStorage.getItem('drinks-counted');
 
-else {
-  counter.textContent = 0;
+if (count == null){
+    count = 0;
 }
+localStorage.setItem('drinks-counted', count);
+drink_count.innerHTML = localStorage.getItem('drinks-counted');
+
+if (localStorage.getItem('drinks-counted') == 1){
+    drink_count.innerHTML += ` drink`;
+}
+
+else{
+    drink_count.innerHTML += ` drinks`;
+}
+
+
+// order_button.addEventListener('click', () => {
+//     count++;
+//     localStorage.setItem('drinks-counted', count);
+// })
