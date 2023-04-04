@@ -19,7 +19,7 @@ else{
 }
 
 
-// order_button.addEventListener('click', () => {
-//     count++;
-//     localStorage.setItem('drinks-counted', count);
-// })
+order_button.addEventListener('click', () => {
+    count++;
+    localStorage.setItem('drinks-counted', count);
+})
