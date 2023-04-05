@@ -1,6 +1,6 @@
 let drink_count = document.querySelector('#drink-count');
 
-const order_button = document.querySelector("#button");
+const order_button = document.querySelector(".order-button");
 
 let count = localStorage.getItem('drinks-counted');
 
@@ -9,8 +9,8 @@ if (count == null){
 }
 localStorage.setItem('drinks-counted', count);
 drink_count.innerHTML = localStorage.getItem('drinks-counted');
-// it was equal to == 1
-if (localStorage.getItem('drinks-counted') == 0){
+
+if (localStorage.getItem('drinks-counted') == 1){
     drink_count.innerHTML += ` drink`;
 }
 
@@ -23,3 +23,4 @@ order_button.addEventListener('click', () => {
     count++;
     localStorage.setItem('drinks-counted', count);
 })
+

@@ -348,6 +348,11 @@ tr:nth-of-type(odd){
 p{
   font-size: 20px;
 }
+
+/* thank you */
+.thankyou h1{
+  margin: 0;
+}
 @media screen and (max-width: 550.9px){
   header{
     display: grid;
