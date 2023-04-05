@@ -1,6 +1,6 @@
 let drink_count = document.querySelector('#drink-count');
 
-const order_button = document.querySelector(".order-button");
+const order_button = document.querySelector(".button-52");
 
 let count = localStorage.getItem('drinks-counted');
 
