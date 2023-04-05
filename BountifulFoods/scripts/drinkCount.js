@@ -22,5 +22,5 @@ else{
 order_button.addEventListener('click', () => {
     count++;
     localStorage.setItem('drinks-counted', count);
-});
+})
 
